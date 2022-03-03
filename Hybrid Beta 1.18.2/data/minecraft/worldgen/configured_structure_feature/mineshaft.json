@@ -1,0 +1,9 @@
+{
+  "config": {
+    "probability": 0.004,
+    "type": "normal"
+  },
+  "biomes": "#minecraft:has_structure/mineshaft",
+  "spawn_overrides": {},
+  "type": "minecraft:mineshaft"
+}
