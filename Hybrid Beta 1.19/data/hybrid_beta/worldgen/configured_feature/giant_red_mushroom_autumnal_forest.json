@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "minecraft:huge_red_mushroom",
+        "chance": 0.25
+      }
+      
+    ],
+    "default": "minecraft:huge_red_mushroom"
+  }
+}

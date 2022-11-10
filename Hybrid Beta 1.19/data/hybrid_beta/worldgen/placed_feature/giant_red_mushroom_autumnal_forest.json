@@ -1,0 +1,15 @@
+{
+  "feature": "hybrid_beta:giant_red_mushroom_autumnal_forest",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

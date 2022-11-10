@@ -1,0 +1,34 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "minecraft:dark_oak_checked",
+        "chance": 0.25
+      },
+      {
+        "feature": "minecraft:super_birch_bees_0002",
+        "chance": 0.075
+      },
+      {
+        "feature": "minecraft:trees_birch",
+        "chance": 0.15
+      },
+      {
+        "chance": 0.05,
+        "feature": {
+          "feature": "minecraft:huge_red_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.025,
+        "feature": {
+          "feature": "minecraft:huge_brown_mushroom",
+          "placement": []
+        }
+      }
+    ],
+    "default": "hybrid_beta:fancy_oak_seasonal"
+  },
+  "type": "minecraft:random_selector"
+}

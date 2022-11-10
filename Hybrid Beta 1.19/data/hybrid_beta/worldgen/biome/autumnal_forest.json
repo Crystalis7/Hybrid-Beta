@@ -8,7 +8,7 @@
     },
     "sky_color": 6733055,
     "fog_color": 11788031,
-    "grass_color": 9682761,
+    "grass_color": 10926679,
     "foliage_color": 14249793,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -69,9 +69,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "hybrid_beta:trees_autumnal_forest",
+      "hybrid_beta:autumnal_forest_vegetation",
       "minecraft:flower_warm",
-      "minecraft:patch_grass_forest",
+      "hybrid_beta:patch_grass_temperate_rainforest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
