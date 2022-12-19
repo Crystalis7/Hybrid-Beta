@@ -68,7 +68,7 @@
     [
       "minecraft:glow_lichen",
       "minecraft:forest_flowers",
-      "minecraft:trees_birch_and_oak",
+      "hybrid_beta:trees_birch_and_oak",
       "minecraft:flower_default",
       "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
