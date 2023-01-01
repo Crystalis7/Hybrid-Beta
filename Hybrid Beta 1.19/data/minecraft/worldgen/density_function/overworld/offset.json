@@ -155,7 +155,7 @@
                   }
                 },
                 {
-                  "location": -0.275,
+                  "location": -0.25,
                   "derivative": 0,
                   "value": {
                     "coordinate": "minecraft:overworld/erosion",
