@@ -697,15 +697,15 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.26666668
+              -0.05
             ],
             "continentalness": [
               -0.25,
-              0.03
+              -0.18
             ],
             "erosion": [
               -0.2225,
-              0.05
+              1
             ],
             "temperature": [
               0.3,
@@ -877,15 +877,15 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.26666668
+              -0.05
             ],
             "continentalness": [
               -0.25,
-              0.03
+              -0.18
             ],
             "erosion": [
               -0.2225,
-              0.05
+              1
             ],
             "temperature": [
               0.7,
@@ -907,15 +907,15 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.26666668
+              -0.05
             ],
             "continentalness": [
               -0.25,
-              0.03
+              -0.18
             ],
             "erosion": [
               -0.2225,
-              0.05
+              1
             ],
             "temperature": [
               0.7,
@@ -1009,7 +1009,7 @@
             ],
             "temperature": [
               -0.7,
-              0.7
+              0.3
             ],
             "humidity": [
               -1,
@@ -1027,7 +1027,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.93333334
             ],
             "continentalness": [
               -0.25,
@@ -1038,12 +1038,12 @@
               1
             ],
             "temperature": [
-              0.7,
-              1
+              0.3,
+              0.7
             ],
             "humidity": [
-              -1,
-              -0.35
+              -0.7,
+              1
             ],
             "depth": [
               0,
@@ -1051,7 +1051,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "minecraft:beach"
         },
         {
           "parameters": {
@@ -1072,7 +1072,37 @@
               1
             ],
             "humidity": [
-              -0.35,
+              0.35,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:rainforest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -1081,7 +1111,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "minecraft:jungle"
         },
         {
           "parameters": {
@@ -9889,10 +9919,40 @@
             ],
             "temperature": [
               -0.7,
-              0.7
+              0.3
             ],
             "humidity": [
               -1,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.05
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.3,
+              0.7
+            ],
+            "humidity": [
+              -0.7,
               1
             ],
             "depth": [
@@ -9922,8 +9982,8 @@
               1
             ],
             "humidity": [
-              -0.35,
-              1
+              0.35,
+              0.7
             ],
             "depth": [
               0,
@@ -9931,7 +9991,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "hybrid_beta:rainforest"
         },
         {
           "parameters": {
@@ -11719,10 +11779,40 @@
             ],
             "temperature": [
               -0.7,
-              0.7
+              0.3
             ],
             "humidity": [
               -1,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.26666668,
+              -0.05
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              0.3,
+              0.7
+            ],
+            "humidity": [
+              -0.7,
               1
             ],
             "depth": [
@@ -11752,7 +11842,37 @@
               1
             ],
             "humidity": [
-              -1,
+              0.35,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:rainforest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.26666668,
+              -0.05
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -11761,7 +11881,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "minecraft:jungle"
         },
         {
           "parameters": {
@@ -13579,10 +13699,70 @@
             ],
             "temperature": [
               -0.7,
-              0.7
+              0.3
             ],
             "humidity": [
               -1,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              0.3,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.26666668
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              0.45
+            ],
+            "temperature": [
+              0.3,
+              0.7
+            ],
+            "humidity": [
+              -0.7,
               1
             ],
             "depth": [
@@ -13612,7 +13792,7 @@
               1
             ],
             "humidity": [
-              -1,
+              -0.7,
               -0.35
             ],
             "depth": [
@@ -13622,6 +13802,66 @@
             "offset": 0
           },
           "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:savanna"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              0.03
+            ],
+            "erosion": [
+              -0.2225,
+              0.45
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:seasonal_forest"
         },
         {
           "parameters": {
@@ -13642,7 +13882,37 @@
               1
             ],
             "humidity": [
-              -0.35,
+              0.35,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:rainforest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -13651,7 +13921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "minecraft:jungle"
         },
         {
           "parameters": {
@@ -14021,36 +14291,6 @@
             ],
             "continentalness": [
               -0.25,
-              1
-            ],
-            "erosion": [
-              0.45,
-              0.55
-            ],
-            "temperature": [
-              0.3,
-              1
-            ],
-            "humidity": [
-              -1,
-              -0.7
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.05,
-              1
-            ],
-            "continentalness": [
-              -0.25,
               0.03
             ],
             "erosion": [
@@ -14171,36 +14411,6 @@
             ],
             "continentalness": [
               -0.25,
-              1
-            ],
-            "erosion": [
-              0.45,
-              0.55
-            ],
-            "temperature": [
-              0.7,
-              1
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.05,
-              1
-            ],
-            "continentalness": [
-              -0.25,
               0.03
             ],
             "erosion": [
@@ -14299,7 +14509,7 @@
             ],
             "temperature": [
               -0.7,
-              0.7
+              0.3
             ],
             "humidity": [
               -1,
@@ -14328,11 +14538,11 @@
               1
             ],
             "temperature": [
-              0.7,
-              1
+              0.3,
+              0.7
             ],
             "humidity": [
-              -0.35,
+              -0.7,
               1
             ],
             "depth": [
@@ -14341,7 +14551,67 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "minecraft:beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:seasonal_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.26666668
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0.35,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:rainforest"
         },
         {
           "parameters": {
@@ -16549,36 +16819,6 @@
             ],
             "temperature": [
               0.3,
-              1
-            ],
-            "humidity": [
-              -1,
-              -0.7
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              1
-            ],
-            "continentalness": [
-              -0.25,
-              -0.18
-            ],
-            "erosion": [
-              -0.2225,
-              1
-            ],
-            "temperature": [
-              0.3,
               0.7
             ],
             "humidity": [
@@ -16732,66 +16972,6 @@
               1
             ],
             "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              1
-            ],
-            "continentalness": [
-              -0.25,
-              0.03
-            ],
-            "erosion": [
-              -0.2225,
-              0.45
-            ],
-            "temperature": [
-              0.7,
-              1
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "hybrid_beta:seasonal_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              1
-            ],
-            "continentalness": [
-              -0.25,
-              -0.18
-            ],
-            "erosion": [
-              -0.2225,
-              1
-            ],
-            "temperature": [
-              0.7,
-              1
-            ],
-            "humidity": [
               0.35,
               1
             ],
@@ -16922,36 +17102,6 @@
             "offset": 0
           },
           "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              1
-            ],
-            "continentalness": [
-              -0.25,
-              -0.18
-            ],
-            "erosion": [
-              0.55,
-              1
-            ],
-            "temperature": [
-              0.7,
-              1
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "hybrid_beta:seasonal_forest"
         },
         {
           "parameters": {
@@ -29317,15 +29467,15 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.26666668
+              -0.05
             ],
             "continentalness": [
               -0.25,
-              0.03
+              -0.18
             ],
             "erosion": [
               -0.2225,
-              0.05
+              1
             ],
             "temperature": [
               0.3,
@@ -29497,15 +29647,15 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.26666668
+              -0.05
             ],
             "continentalness": [
               -0.25,
-              0.03
+              -0.18
             ],
             "erosion": [
               -0.2225,
-              0.05
+              1
             ],
             "temperature": [
               0.7,
@@ -29527,15 +29677,15 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.26666668
+              -0.05
             ],
             "continentalness": [
               -0.25,
-              0.03
+              -0.18
             ],
             "erosion": [
               -0.2225,
-              0.05
+              1
             ],
             "temperature": [
               0.7,
@@ -29629,7 +29779,7 @@
             ],
             "temperature": [
               -0.7,
-              0.7
+              0.3
             ],
             "humidity": [
               -1,
@@ -29647,7 +29797,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.93333334
             ],
             "continentalness": [
               -0.25,
@@ -29658,12 +29808,12 @@
               1
             ],
             "temperature": [
-              0.7,
-              1
+              0.3,
+              0.7
             ],
             "humidity": [
-              -1,
-              -0.35
+              -0.7,
+              1
             ],
             "depth": [
               1,
@@ -29671,7 +29821,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "minecraft:beach"
         },
         {
           "parameters": {
@@ -29692,7 +29842,37 @@
               1
             ],
             "humidity": [
-              -0.35,
+              0.35,
+              0.7
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:rainforest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -29701,7 +29881,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "minecraft:jungle"
         },
         {
           "parameters": {
@@ -38509,10 +38689,40 @@
             ],
             "temperature": [
               -0.7,
-              0.7
+              0.3
             ],
             "humidity": [
               -1,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.05
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.3,
+              0.7
+            ],
+            "humidity": [
+              -0.7,
               1
             ],
             "depth": [
@@ -38542,8 +38752,8 @@
               1
             ],
             "humidity": [
-              -0.35,
-              1
+              0.35,
+              0.7
             ],
             "depth": [
               1,
@@ -38551,7 +38761,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "hybrid_beta:rainforest"
         },
         {
           "parameters": {
@@ -40339,10 +40549,40 @@
             ],
             "temperature": [
               -0.7,
-              0.7
+              0.3
             ],
             "humidity": [
               -1,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.26666668,
+              -0.05
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              0.3,
+              0.7
+            ],
+            "humidity": [
+              -0.7,
               1
             ],
             "depth": [
@@ -40372,7 +40612,37 @@
               1
             ],
             "humidity": [
-              -1,
+              0.35,
+              0.7
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:rainforest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.26666668,
+              -0.05
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -40381,7 +40651,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "minecraft:jungle"
         },
         {
           "parameters": {
@@ -42199,10 +42469,70 @@
             ],
             "temperature": [
               -0.7,
-              0.7
+              0.3
             ],
             "humidity": [
               -1,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              0.3,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.7
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.26666668
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              0.45
+            ],
+            "temperature": [
+              0.3,
+              0.7
+            ],
+            "humidity": [
+              -0.7,
               1
             ],
             "depth": [
@@ -42232,7 +42562,7 @@
               1
             ],
             "humidity": [
-              -1,
+              -0.7,
               -0.35
             ],
             "depth": [
@@ -42242,6 +42572,66 @@
             "offset": 0
           },
           "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:savanna"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              0.03
+            ],
+            "erosion": [
+              -0.2225,
+              0.45
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:seasonal_forest"
         },
         {
           "parameters": {
@@ -42262,7 +42652,37 @@
               1
             ],
             "humidity": [
-              -0.35,
+              0.35,
+              0.7
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:rainforest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -42271,7 +42691,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "minecraft:jungle"
         },
         {
           "parameters": {
@@ -42641,36 +43061,6 @@
             ],
             "continentalness": [
               -0.25,
-              1
-            ],
-            "erosion": [
-              0.45,
-              0.55
-            ],
-            "temperature": [
-              0.3,
-              1
-            ],
-            "humidity": [
-              -1,
-              -0.7
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.05,
-              1
-            ],
-            "continentalness": [
-              -0.25,
               0.03
             ],
             "erosion": [
@@ -42791,36 +43181,6 @@
             ],
             "continentalness": [
               -0.25,
-              1
-            ],
-            "erosion": [
-              0.45,
-              0.55
-            ],
-            "temperature": [
-              0.7,
-              1
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.05,
-              1
-            ],
-            "continentalness": [
-              -0.25,
               0.03
             ],
             "erosion": [
@@ -42919,7 +43279,7 @@
             ],
             "temperature": [
               -0.7,
-              0.7
+              0.3
             ],
             "humidity": [
               -1,
@@ -42948,11 +43308,11 @@
               1
             ],
             "temperature": [
-              0.7,
-              1
+              0.3,
+              0.7
             ],
             "humidity": [
-              -0.35,
+              -0.7,
               1
             ],
             "depth": [
@@ -42961,7 +43321,67 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "minecraft:beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:seasonal_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.26666668
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              0.7,
+              1
+            ],
+            "humidity": [
+              0.35,
+              0.7
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "hybrid_beta:rainforest"
         },
         {
           "parameters": {
@@ -45169,36 +45589,6 @@
             ],
             "temperature": [
               0.3,
-              1
-            ],
-            "humidity": [
-              -1,
-              -0.7
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              1
-            ],
-            "continentalness": [
-              -0.25,
-              -0.18
-            ],
-            "erosion": [
-              -0.2225,
-              1
-            ],
-            "temperature": [
-              0.3,
               0.7
             ],
             "humidity": [
@@ -45352,66 +45742,6 @@
               1
             ],
             "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              1
-            ],
-            "continentalness": [
-              -0.25,
-              0.03
-            ],
-            "erosion": [
-              -0.2225,
-              0.45
-            ],
-            "temperature": [
-              0.7,
-              1
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "hybrid_beta:seasonal_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              1
-            ],
-            "continentalness": [
-              -0.25,
-              -0.18
-            ],
-            "erosion": [
-              -0.2225,
-              1
-            ],
-            "temperature": [
-              0.7,
-              1
-            ],
-            "humidity": [
               0.35,
               1
             ],
@@ -45542,36 +45872,6 @@
             "offset": 0
           },
           "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              1
-            ],
-            "continentalness": [
-              -0.25,
-              -0.18
-            ],
-            "erosion": [
-              0.55,
-              1
-            ],
-            "temperature": [
-              0.7,
-              1
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "hybrid_beta:seasonal_forest"
         },
         {
           "parameters": {
