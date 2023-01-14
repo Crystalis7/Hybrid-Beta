@@ -7,7 +7,9 @@
       "offset": 2.0
     },
     "sky_color": 6733055,
-    "fog_color": 12638463,
+    "fog_color": 11788031,
+    "grass_color": 10926679,
+    "foliage_color": 14249793,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
@@ -67,10 +69,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:flower_forest_flowers",
-      "hybrid_beta:trees_flower_forest",
-      "minecraft:flower_flower_forest",
-      "minecraft:patch_grass_badlands",
+      "hybrid_beta:autumnal_forest_vegetation",
+      "minecraft:flower_warm",
+      "hybrid_beta:patch_grass_temperate_rainforest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
@@ -158,10 +159,10 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:rabbit",
-        "weight": 4,
-        "minCount": 2,
-        "maxCount": 3
+        "type": "minecraft:wolf",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 4
       }
     ],
     "ambient": [
@@ -187,7 +188,7 @@
   },
   "spawn_costs": {},
   "precipitation": "rain",
-  "temperature": 0.85,
-  "downfall": 0.8,
+  "temperature": 0.8,
+  "downfall": 0.7,
   "category": "forest"
 }

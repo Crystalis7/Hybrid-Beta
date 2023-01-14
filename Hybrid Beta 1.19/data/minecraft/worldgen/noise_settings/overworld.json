@@ -414,15 +414,18 @@
           "type": "minecraft:sequence",
           "sequence": [
             {
-              "type":"minecraft:condition",
+              "type": "minecraft:condition",
               "if_true": {
-                "type":"minecraft:not",
+                "type": "minecraft:not",
                 "invert": {
                   "type": "minecraft:biome",
                   "biome_is": [
                     "minecraft:badlands",
-                    "minecraft:swamp",
                     "minecraft:wooded_badlands",
+                    "minecraft:eroded_badlands",
+                    "minecraft:swamp",
+                    "minecraft:bamboo_jungle",
+                    "minecraft:mangrove_swamp",
                     "minecraft:stony_shore"
                   ]
                 }
@@ -740,6 +743,104 @@
                     }
                   ]
                 }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:biome",
+                "biome_is": [
+                  "minecraft:stony_shore"
+                ]
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:y_above",
+                      "anchor": {
+                        "absolute": 60
+                      },
+                      "add_stone_depth": true,
+                      "surface_depth_multiplier": 0
+                    },
+                    "then_run": {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:not",
+                        "invert": {
+                          "type": "minecraft:y_above",
+                          "anchor": {
+                            "absolute": 66
+                          },
+                          "add_stone_depth": true,
+                          "surface_depth_multiplier": 0
+                        }
+                      },
+                      "then_run": {
+                        "type": "minecraft:sequence",
+                        "sequence": [
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "offset": 0,
+                              "add_surface_depth": true,
+                              "secondary_depth_range": 7,
+                              "surface_type": "floor",
+                              "type": "minecraft:stone_depth"
+                            },
+                            "then_run": {
+                              "type": "minecraft:sequence",
+                              "sequence": [
+                                {
+                                  "type": "minecraft:condition",
+                                  "if_true": {
+                                    "type": "minecraft:y_above",
+                                    "anchor": {
+                                      "absolute": 64
+                                    },
+                                    "add_stone_depth": false,
+                                    "surface_depth_multiplier": 0
+                                  },
+                                  "then_run": {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:air"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:sand"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:stone_depth",
+                              "offset": 0,
+                              "add_surface_depth": true,
+                              "secondary_depth_range": 6,
+                              "surface_type": "floor"
+                            },
+                            "then_run": {
+                              "type": "minecraft:block",
+                              "result_state": {
+                                "Name": "minecraft:stone"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
               }
             },
             {
@@ -2760,7 +2861,7 @@
                 "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                      "Name": "minecraft:clay"
+                    "Name": "minecraft:clay"
                   }
                 }
               }
