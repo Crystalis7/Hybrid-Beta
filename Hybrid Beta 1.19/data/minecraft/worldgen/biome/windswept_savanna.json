@@ -190,7 +190,7 @@
     "misc": []
   },
   "spawn_costs": {},
-  "precipitation": "none",
+  "has_precipitation": false,
   "temperature": 1.1,
   "downfall": 0.0,
   "category": "savanna"
