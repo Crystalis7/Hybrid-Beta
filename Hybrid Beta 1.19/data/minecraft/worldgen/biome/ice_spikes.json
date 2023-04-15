@@ -176,7 +176,7 @@
     "misc": []
   },
   "spawn_costs": {},
-  "precipitation": "snow",
+  "has_precipitation": true,
   "temperature": 0.0,
   "downfall": 0.5,
   "category": "icy"
