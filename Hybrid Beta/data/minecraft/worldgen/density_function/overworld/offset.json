@@ -48,7 +48,7 @@
                           "points": [
                             {
                               "location": 0,
-                              "value": 0.044,
+                              "value": 0.05,
                               "derivative": 0
                             }
                           ]
@@ -58,7 +58,7 @@
                   }
                 },
                 {
-                  "location": -1.02,
+                  "location": -1.025,
                   "derivative": 0,
                   "value": {
                     "coordinate": "minecraft:overworld/erosion",
@@ -71,7 +71,30 @@
                           "points": [
                             {
                               "location": 0,
-                              "value": -0.2222,
+                              "value": -0.025,
+                              "derivative": 0
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "location": -0.8,
+                  "derivative": 0,
+                  "value": {
+                    "coordinate": "minecraft:overworld/erosion",
+                    "points": [
+                      {
+                        "location": -0.85,
+                        "derivative": 0,
+                        "value": {
+                          "coordinate": "minecraft:overworld/ridges",
+                          "points": [
+                            {
+                              "location": 0,
+                              "value": -0.2,
                               "derivative": 0
                             }
                           ]
@@ -584,18 +607,13 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": 0.05,
-                              "derivative": 0
-                            },
-                            {
                               "location": -1.0,
-                              "value": 0.05,
+                              "value": 0.0,
                               "derivative": 0
                             },
                             {
                               "location": -0.867,
-                              "value": 0.05,
+                              "value": 0.025,
                               "derivative": 0
                             },
                             {
@@ -640,17 +658,12 @@
                             },
                             {
                               "location": 0.867,
-                              "value": 0.05,
+                              "value": 0.025,
                               "derivative": 0
                             },
                             {
                               "location": 1.0,
-                              "value": 0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.13,
-                              "value": 0.05,
+                              "value": 0.00,
                               "derivative": 0
                             },
                             {
@@ -673,13 +686,23 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": 0.025,
+                              "location": -0.5,
+                              "value": -0.025,
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.4,
+                              "value": 0.0,
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.3,
+                              "value": 0.05,
                               "derivative": 0
                             },
                             {
                               "location": -0.15,
-                              "value": 0.025,
+                              "value": 0.05,
                               "derivative": 0
                             },
                             {
@@ -694,12 +717,22 @@
                             },
                             {
                               "location": 0.15,
-                              "value": 0.025,
+                              "value": 0.05,
                               "derivative": 0
                             },
                             {
-                              "location": 1.13,
-                              "value": 0.025,
+                              "location": 0.3,
+                              "value": 0.05,
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.4,
+                              "value": 0.0,
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.5,
+                              "value": -0.025,
                               "derivative": 0
                             },
                             {
@@ -727,24 +760,14 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.0,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.867,
-                              "value": 0,
-                              "derivative": 0.18
-                            },
-                            {
                               "location": -0.667,
-                              "value": 0,
+                              "value": -0.03,
                               "derivative": 0
                             },
                             {
                               "location": -0.23,
                               "value": 0,
-                              "derivative": -0.18
+                              "derivative": 0
                             },
                             {
                               "location": -0.15,
@@ -774,20 +797,10 @@
                             {
                               "location": 0.23,
                               "value": 0,
-                              "derivative": 0.18
-                            },
-                            {
-                              "location": 0.667,
-                              "value": 0,
                               "derivative": 0
                             },
                             {
-                              "location": 0.867,
-                              "value": 0,
-                              "derivative": -0.18
-                            },
-                            {
-                              "location": 1.0,
+                              "location": 0.667,
                               "value": -0.03,
                               "derivative": 0
                             },
@@ -1145,13 +1158,8 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
                               "location": -1.0,
-                              "value": 0.05,
+                              "value": 0.0,
                               "derivative": 0
                             },
                             {
@@ -1206,12 +1214,7 @@
                             },
                             {
                               "location": 1.0,
-                              "value": 0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.13,
-                              "value": 0,
+                              "value": 0.0,
                               "derivative": 0
                             },
                             {
@@ -1234,27 +1237,17 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": 0,
+                              "location": -0.6,
+                              "value": -0.05,
                               "derivative": 0
                             },
                             {
-                              "location": -1.0,
-                              "value": 0.025,
+                              "location": -0.5,
+                              "value": 0.0,
                               "derivative": 0
                             },
                             {
-                              "location": -0.867,
-                              "value": 0.04,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.667,
-                              "value": 0.04,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.467,
+                              "location": -0.4,
                               "value": 0.025,
                               "derivative": 0
                             },
@@ -1274,28 +1267,18 @@
                               "derivative": 0
                             },
                             {
-                              "location": 0.467,
+                              "location": 0.4,
                               "value": 0.025,
                               "derivative": 0
                             },
                             {
-                              "location": 0.667,
-                              "value": 0.04,
+                              "location": 0.5,
+                              "value": 0.0,
                               "derivative": 0
                             },
                             {
-                              "location": 0.867,
-                              "value": 0.04,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.0,
-                              "value": 0.025,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.13,
-                              "value": 0,
+                              "location": 0.6,
+                              "value": -0.05,
                               "derivative": 0
                             },
                             {
@@ -1318,18 +1301,8 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.0,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
                               "location": -0.867,
-                              "value": 0,
+                              "value": -0.03,
                               "derivative": 0.18
                             },
                             {
@@ -1379,18 +1352,8 @@
                             },
                             {
                               "location": 0.867,
-                              "value": 0,
+                              "value": -0.03,
                               "derivative": -0.18
-                            },
-                            {
-                              "location": 1.0,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.13,
-                              "value": -0.03,
-                              "derivative": 0
                             },
                             {
                               "location": 1.333,
@@ -1805,18 +1768,18 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.1325,
-                              "value": 0.001,
-                              "derivative": 0.27
+                              "location": -0.5,
+                              "value": -0.0375,
+                              "derivative": 0
                             },
                             {
-                              "location": -0.667,
-                              "value": 0.05,
+                              "location": -0.425,
+                              "value": 0.0,
                               "derivative": 0.0
                             },
                             {
-                              "location": -0.667,
-                              "value": 0.05,
+                              "location": -0.35,
+                              "value": 0.0375,
                               "derivative": -0.0
                             },
                             {
@@ -1835,19 +1798,19 @@
                               "derivative": 0.0
                             },
                             {
-                              "location": 0.667,
-                              "value": 0.05,
+                              "location": 0.35,
+                              "value": 0.0375,
                               "derivative": 0.0
                             },
                             {
-                              "location": 0.667,
-                              "value": 0.05,
+                              "location": 0.425,
+                              "value": 0.0,
                               "derivative": -0.0
                             },
                             {
-                              "location": 1.1325,
-                              "value": 0.001,
-                              "derivative": -0.27
+                              "location": 0.5,
+                              "value": -0.0375,
+                              "derivative": 0
                             },
                             {
                               "location": 1.5,
@@ -1869,19 +1832,9 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.0,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
                               "location": -0.867,
-                              "value": 0.03,
-                              "derivative": 0.36
+                              "value": -0.05,
+                              "derivative": 0
                             },
                             {
                               "location": -0.667,
@@ -1940,17 +1893,7 @@
                             },
                             {
                               "location": 0.867,
-                              "value": 0.03,
-                              "derivative": -0.36
-                            },
-                            {
-                              "location": 1.0,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.13,
-                              "value": -0.03,
+                              "value": -0.05,
                               "derivative": 0
                             },
                             {
@@ -2446,17 +2389,17 @@
                           "coordinate": "minecraft:overworld/ridges",
                           "points": [
                             {
-                              "location": -1.5,
-                              "value": -0.0625,
+                              "location": -0.5,
+                              "value": -0.025,
                               "derivative": 0
                             },
                             {
-                              "location": -1.1325,
-                              "value": 0.01,
-                              "derivative": 0.325
+                              "location": -0.375,
+                              "value": 0.025,
+                              "derivative": 0
                             },
                             {
-                              "location": -0.67,
+                              "location": -0.25,
                               "value": 0.1,
                               "derivative": 0
                             },
@@ -2481,18 +2424,18 @@
                               "derivative": 0.0
                             },
                             {
-                              "location": 0.67,
+                              "location": 0.25,
                               "value": 0.1,
                               "derivative": 0
                             },
                             {
-                              "location": 1.1325,
-                              "value": 0.01,
-                              "derivative": -0.325
+                              "location": 0.375,
+                              "value": 0.025,
+                              "derivative": 0
                             },
                             {
-                              "location": 1.5,
-                              "value": -0.0625,
+                              "location": 0.5,
+                              "value": -0.025,
                               "derivative": 0
                             }
                           ]
@@ -2505,17 +2448,12 @@
                           "coordinate": "minecraft:overworld/ridges",
                           "points": [
                             {
-                              "location": -1.333,
-                              "value": -0.1,
+                              "location": -0.45,
+                              "value": -0.0375,
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.0,
+                              "location": -0.3,
                               "value": 0.025,
                               "derivative": 0
                             },
@@ -2545,18 +2483,13 @@
                               "derivative": 0
                             },
                             {
-                              "location": 1.0,
+                              "location": 0.3,
                               "value": 0.025,
                               "derivative": 0
                             },
                             {
-                              "location": 1.13,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.333,
-                              "value": -0.1,
+                              "location": 0.55,
+                              "value": -0.0375,
                               "derivative": 0
                             }
                           ]
@@ -2569,23 +2502,23 @@
                           "coordinate": "minecraft:overworld/ridges",
                           "points": [
                             {
-                              "location": -1.472,
-                              "value": -0.1,
+                              "location": -0.45,
+                              "value": -0.05,
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": 0.01,
+                              "location": -0.375,
+                              "value": 0.0,
                               "derivative": 0
                             },
                             {
-                              "location": -1.0,
-                              "value": 0.01,
+                              "location": -0.3,
+                              "value": 0.0125,
                               "derivative": 0
                             },
                             {
                               "location": -0.15,
-                              "value": 0.01,
+                              "value": 0.0125,
                               "derivative": 0
                             },
                             {
@@ -2605,22 +2538,22 @@
                             },
                             {
                               "location": 0.15,
-                              "value": 0.01,
+                              "value": 0.0125,
                               "derivative": 0
                             },
                             {
-                              "location": 1.0,
-                              "value": 0.01,
+                              "location": 0.3,
+                              "value": 0.0125,
                               "derivative": 0
                             },
                             {
-                              "location": 1.13,
-                              "value": 0.01,
+                              "location": 0.375,
+                              "value": 0.0,
                               "derivative": 0
                             },
                             {
-                              "location": 1.472,
-                              "value": -0.1,
+                              "location": 0.45,
+                              "value": -0.05,
                               "derivative": 0
                             }
                           ]
@@ -2633,23 +2566,23 @@
                           "coordinate": "minecraft:overworld/ridges",
                           "points": [
                             {
-                              "location": -1.472,
+                              "location": -1.5,
                               "value": -0.1,
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": 0.01,
-                              "derivative": 0.452
+                              "location": -0.45,
+                              "value": -0.05,
+                              "derivative": 0
                             },
                             {
-                              "location": -0.667,
-                              "value": 0.01,
+                              "location": -0.3,
+                              "value": 0.025,
                               "derivative": 0
                             },
                             {
                               "location": -0.1,
-                              "value": 0.025,
+                              "value": 0.0125,
                               "derivative": -0.0
                             },
                             {
@@ -2664,21 +2597,21 @@
                             },
                             {
                               "location": 0.1,
-                              "value": 0.025,
+                              "value": 0.0125,
                               "derivative": 0.0
                             },
                             {
-                              "location": 0.667,
-                              "value": 0.01,
+                              "location": 0.3,
+                              "value": 0.025,
                               "derivative": 0
                             },
                             {
-                              "location": 1.13,
-                              "value": 0.01,
-                              "derivative": -0.452
+                              "location": 0.45,
+                              "value": -0.05,
+                              "derivative": 0
                             },
                             {
-                              "location": 1.472,
+                              "location": 1.5,
                               "value": -0.1,
                               "derivative": 0
                             }
@@ -2692,37 +2625,27 @@
                           "coordinate": "minecraft:overworld/ridges",
                           "points": [
                             {
-                              "location": -1.333,
-                              "value": -0.02,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.13,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
                               "location": -1.0,
                               "value": -0.03,
                               "derivative": 0
                             },
                             {
-                              "location": -0.867,
-                              "value": 0.03,
-                              "derivative": 0.36
+                              "location": -0.5,
+                              "value": 0.0,
+                              "derivative": 0
                             },
                             {
-                              "location": -0.667,
-                              "value": 0.05,
+                              "location": -0.3,
+                              "value": 0.0375,
                               "derivative": 0.147
                             },
                             {
-                              "location": -0.667,
-                              "value": 0.05,
+                              "location": -0.3,
+                              "value": 0.0375,
                               "derivative": -0.147
                             },
                             {
-                              "location": -0.467,
+                              "location": -0.267,
                               "value": 0.03,
                               "derivative": -0.36
                             },
@@ -2752,38 +2675,28 @@
                               "derivative": 0
                             },
                             {
-                              "location": 0.467,
+                              "location": 0.267,
                               "value": 0.03,
                               "derivative": 0.36
                             },
                             {
-                              "location": 0.667,
-                              "value": 0.05,
+                              "location": 0.3,
+                              "value": 0.0375,
                               "derivative": 0.147
                             },
                             {
-                              "location": 0.667,
-                              "value": 0.05,
+                              "location": 0.3,
+                              "value": 0.0375,
                               "derivative": -0.147
                             },
                             {
-                              "location": 0.867,
-                              "value": 0.03,
-                              "derivative": -0.36
+                              "location": 0.5,
+                              "value": 0.0,
+                              "derivative": 0
                             },
                             {
                               "location": 1.0,
                               "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.13,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.333,
-                              "value": -0.02,
                               "derivative": 0
                             }
                           ]
@@ -3269,13 +3182,13 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": 0.01,
-                              "derivative": 0.380
+                              "location": -0.55,
+                              "value": -0.0375,
+                              "derivative": 0
                             },
                             {
-                              "location": -0.667,
-                              "value": 0.0375,
+                              "location": -0.25,
+                              "value": 0.075,
                               "derivative": 0
                             },
                             {
@@ -3299,14 +3212,14 @@
                               "derivative": 0.0
                             },
                             {
-                              "location": 0.667,
-                              "value": 0.0375,
+                              "location": 0.2,
+                              "value": 0.075,
                               "derivative": 0
                             },
                             {
-                              "location": 1.13,
-                              "value": 0.01,
-                              "derivative": -0.380
+                              "location": 0.55,
+                              "value": -0.0375,
+                              "derivative": 0
                             },
                             {
                               "location": 1.475,
@@ -3328,18 +3241,18 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": 0.01,
+                              "location": -0.5,
+                              "value": -0.05,
                               "derivative": 0
                             },
                             {
-                              "location": -1.0,
-                              "value": 0.0625,
+                              "location": -0.325,
+                              "value": 0.05,
                               "derivative": 0
                             },
                             {
                               "location": -0.15,
-                              "value": 0.0625,
+                              "value": 0.05,
                               "derivative": 0
                             },
                             {
@@ -3359,17 +3272,17 @@
                             },
                             {
                               "location": 0.15,
-                              "value": 0.0625,
+                              "value": 0.05,
                               "derivative": 0
                             },
                             {
-                              "location": 1.0,
-                              "value": 0.0625,
+                              "location": 0.325,
+                              "value": 0.05,
                               "derivative": 0
                             },
                             {
-                              "location": 1.13,
-                              "value": 0.01,
+                              "location": 0.5,
+                              "value": -0.05,
                               "derivative": 0
                             },
                             {
@@ -3392,18 +3305,18 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": 0.01,
+                              "location": -0.45,
+                              "value": -0.0375,
                               "derivative": 0
                             },
                             {
-                              "location": -1.0,
-                              "value": 0.05,
+                              "location": -0.3,
+                              "value": 0.0375,
                               "derivative": 0
                             },
                             {
                               "location": -0.15,
-                              "value": 0.05,
+                              "value": 0.0375,
                               "derivative": 0
                             },
                             {
@@ -3423,17 +3336,17 @@
                             },
                             {
                               "location": 0.15,
-                              "value": 0.05,
+                              "value": 0.0375,
                               "derivative": 0
                             },
                             {
-                              "location": 1.0,
-                              "value": 0.05,
+                              "location": 0.3,
+                              "value": 0.0375,
                               "derivative": 0
                             },
                             {
-                              "location": 1.13,
-                              "value": 0.01,
+                              "location": 0.45,
+                              "value": -0.0375,
                               "derivative": 0
                             },
                             {
@@ -3456,44 +3369,54 @@
                               "derivative": 0
                             },
                             {
-                              "location": -1.13,
-                              "value": 0.01,
-                              "derivative": 0.336
+                              "location": -0.425,
+                              "value": -0.0375,
+                              "derivative": 0
                             },
                             {
-                              "location": -0.667,
-                              "value": 0.01,
+                              "location": -0.375,
+                              "value": 0.0125,
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.25,
+                              "value": 0.025,
                               "derivative": 0
                             },
                             {
                               "location": -0.1,
                               "value": 0.01,
-                              "derivative": -0.15
+                              "derivative": 0
                             },
                             {
                               "location": 0,
                               "value": -0.05,
-                              "derivative": 0.0
+                              "derivative": 0
                             },
                             {
                               "location": 0,
                               "value": -0.05,
-                              "derivative": -0.0
+                              "derivative": 0
                             },
                             {
                               "location": 0.1,
                               "value": 0.01,
-                              "derivative": 0.15
-                            },
-                            {
-                              "location": 0.667,
-                              "value": 0.01,
                               "derivative": 0
                             },
                             {
-                              "location": 1.13,
-                              "value": 0.01,
-                              "derivative": -0.336
+                              "location": 0.25,
+                              "value": 0.025,
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.375,
+                              "value": 0.0125,
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.425,
+                              "value": -0.0375,
+                              "derivative": 0
                             },
                             {
                               "location": 1.333,
@@ -3512,22 +3435,12 @@
                             {
                               "location": -1.333,
                               "value": -0.02,
-                              "derivative": 0.045
-                            },
-                            {
-                              "location": -1.13,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.0,
-                              "value": 0.01,
                               "derivative": 0
                             },
                             {
                               "location": -0.867,
-                              "value": 0.03,
-                              "derivative": 0.12
+                              "value": -0.03,
+                              "derivative": 0
                             },
                             {
                               "location": -0.667,
@@ -3591,23 +3504,13 @@
                             },
                             {
                               "location": 0.867,
-                              "value": 0.03,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": 1.0,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.13,
-                              "value": 0.01,
+                              "value": -0.03,
                               "derivative": 0
                             },
                             {
                               "location": 1.333,
                               "value": -0.02,
-                              "derivative": -0.045
+                              "derivative": 0
                             }
                           ]
                         }
