@@ -42,6 +42,29 @@
                   }
                 },
                 {
+                  "location": -1.0,
+                  "derivative": 0,
+                  "value": {
+                    "coordinate": "minecraft:overworld/erosion",
+                    "points": [
+                      {
+                        "location": -0.65,
+                        "derivative": 0,
+                        "value": {
+                          "coordinate": "minecraft:overworld/ridges",
+                          "points": [
+                            {
+                              "location": 0,
+                              "value": 4.5,
+                              "derivative": 0
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
                   "location": -0.275,
                   "derivative": 0,
                   "value": {
