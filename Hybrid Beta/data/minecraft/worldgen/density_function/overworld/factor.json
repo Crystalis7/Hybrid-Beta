@@ -42,7 +42,7 @@
                   }
                 },
                 {
-                  "location": -1.0,
+                  "location": -1.05,
                   "derivative": 0,
                   "value": {
                     "coordinate": "minecraft:overworld/erosion",
@@ -55,7 +55,7 @@
                           "points": [
                             {
                               "location": 0,
-                              "value": 4.5,
+                              "value": 6.5,
                               "derivative": 0
                             }
                           ]
@@ -119,7 +119,7 @@
                           "coordinate": "minecraft:overworld/ridges",
                           "points": [
                             {
-                              "location": -0.15,
+                              "location": -0.2,
                               "value": 6.3,
                               "derivative": 0
                             },
@@ -129,7 +129,45 @@
                               "derivative": 0
                             },
                             {
-                              "location": 0.15,
+                              "location": 0,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.2,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 2.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.45,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
@@ -140,13 +178,32 @@
                                   },
                                   {
                                     "location": 0.0,
-                                    "value": 1.25,
+                                    "value": 1.5,
                                     "derivative": 0.0
                                   }
                                 ]
                               },
                               "derivative": 0
-                            }
+                            },
+                            {
+                              "location": -0.6,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            }  
                           ]
                         }
                       },
@@ -156,6 +213,44 @@
                         "value": {
                           "coordinate": "minecraft:overworld/ridges",
                           "points": [
+                            {
+                              "location": -0.7,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.5,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 2.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 1.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
                             {
                               "location": -0.2,
                               "value": 6.3,
@@ -193,6 +288,44 @@
                                   {
                                     "location": 0.0,
                                     "value": 1.25,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.45,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.0,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.8,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 2.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 1.5,
                                     "derivative": 0.0
                                   }
                                 ]
@@ -209,6 +342,44 @@
                           "coordinate": "minecraft:overworld/ridges",
                           "points": [
                             {
+                              "location": -0.7,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 4.0,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.5,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 2.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 1.25,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
                               "location": -0.2,
                               "value": 6.3,
                               "derivative": 0
@@ -244,7 +415,45 @@
                                   },
                                   {
                                     "location": 0.0,
-                                    "value": 1.25,
+                                    "value": 1.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.45,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.9,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 2.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 1.75,
                                     "derivative": 0.0
                                   }
                                 ]
@@ -261,7 +470,26 @@
                           "coordinate": "minecraft:overworld/ridges",
                           "points": [
                             {
-                              "location": -0.15,
+                              "location": -0.5,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 2.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.2,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
@@ -299,8 +527,46 @@
                               "derivative": 0
                             },
                             {
-                              "location": 0.15,
+                              "location": 0.2,
                               "value": 6.3,
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.45,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 2.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 1.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.6,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.0,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
                               "derivative": 0
                             }
                           ]
@@ -313,6 +579,44 @@
                           "coordinate": "minecraft:overworld/ridges",
                           "points": [
                             {
+                              "location": -0.7,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.0,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.45,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 2.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 1.0,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
                               "location": -0.2,
                               "value": 6.3,
                               "derivative": 0
@@ -320,6 +624,44 @@
                             {
                               "location": 0.2,
                               "value": 6.25,
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.45,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 2.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 1.0,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.7,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.0,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
                               "derivative": 0
                             }
                           ]
@@ -337,7 +679,7 @@
                               "derivative": 0
                             },
                             {
-                              "location": -0.15,
+                              "location": -0.7,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
@@ -349,6 +691,25 @@
                                   {
                                     "location": 0.0,
                                     "value": 0.9,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.2,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.0,
                                     "derivative": 0.0
                                   }
                                 ]
@@ -375,7 +736,7 @@
                               "derivative": 0
                             },
                             {
-                              "location": 0.15,
+                              "location": 0.2,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
@@ -394,18 +755,18 @@
                               "derivative": 0
                             },
                             {
-                              "location": 1.23,
+                              "location": 0.7,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
                                   {
                                     "location": -1.0,
-                                    "value": 2.5,
+                                    "value": 3.5,
                                     "derivative": 0.0
                                   },
                                   {
                                     "location": 0.0,
-                                    "value": 0.625,
+                                    "value": 3.5,
                                     "derivative": 0.0
                                   }
                                 ]
@@ -427,12 +788,7 @@
                           "coordinate": "minecraft:overworld/ridges",
                           "points": [
                             {
-                              "location": -1.3,
-                              "value": 3.5,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.15,
+                              "location": -0.7,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
@@ -451,6 +807,25 @@
                               "derivative": 0
                             },
                             {
+                              "location": -0.2,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.0,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
                               "location": 0.0,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
@@ -470,7 +845,7 @@
                               "derivative": 0
                             },
                             {
-                              "location": 0.15,
+                              "location": 0.2,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
@@ -489,27 +864,22 @@
                               "derivative": 0
                             },
                             {
-                              "location": 1.23,
+                              "location": 0.7,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
                                   {
                                     "location": -1.0,
-                                    "value": 2.5,
+                                    "value": 3.5,
                                     "derivative": 0.0
                                   },
                                   {
                                     "location": 0.0,
-                                    "value": 0.625,
+                                    "value": 3.5,
                                     "derivative": 0.0
                                   }
                                 ]
                               },
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.3,
-                              "value": 3.5,
                               "derivative": 0
                             }
                           ]
@@ -527,18 +897,18 @@
                               "derivative": 0
                             },
                             {
-                              "location": -0.65,
+                              "location": -0.5,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
                                   {
                                     "location": -1.0,
-                                    "value": 2.5,
+                                    "value": 4.5,
                                     "derivative": 0.0
                                   },
                                   {
                                     "location": 0.0,
-                                    "value": 0.625,
+                                    "value": 3.5,
                                     "derivative": 0.0
                                   }
                                 ]
@@ -546,7 +916,7 @@
                               "derivative": 0
                             },
                             {
-                              "location": -0.15,
+                              "location": -0.2,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
@@ -584,7 +954,7 @@
                               "derivative": 0
                             },
                             {
-                              "location": 0.15,
+                              "location": 0.2,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
@@ -603,18 +973,18 @@
                               "derivative": 0
                             },
                             {
-                              "location": 1.23,
+                              "location": 0.5,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
                                   {
                                     "location": -1.0,
-                                    "value": 2.5,
+                                    "value": 3.5,
                                     "derivative": 0.0
                                   },
                                   {
                                     "location": 0.0,
-                                    "value": 0.625,
+                                    "value": 3.5,
                                     "derivative": 0.0
                                   }
                                 ]
@@ -714,6 +1084,25 @@
                                 ]
                               },
                               "derivative": 0
+                            },
+                            {
+                              "location": -0.6,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
                             }
                           ]
                         }
@@ -749,7 +1138,7 @@
                               "derivative": 0
                             },
                             {
-                              "location": 0.15,
+                              "location": 0.2,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
@@ -761,6 +1150,25 @@
                                   {
                                     "location": 0.0,
                                     "value": 1.0,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.8,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.5,
                                     "derivative": 0.0
                                   }
                                 ]
@@ -813,6 +1221,25 @@
                                   {
                                     "location": 0.0,
                                     "value": 1.0,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": -0.8,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 2.5,
                                     "derivative": 0.0
                                   }
                                 ]
@@ -897,7 +1324,45 @@
                                   },
                                   {
                                     "location": 0.0,
-                                    "value": 1.0,
+                                    "value": 2.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.45,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 1.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
+                            },
+                            {
+                              "location": 0.8,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.5,
                                     "derivative": 0.0
                                   }
                                 ]
@@ -944,7 +1409,7 @@
                                   },
                                   {
                                     "location": 0.0,
-                                    "value": 1.25,
+                                    "value": 2.5,
                                     "derivative": 0.0
                                   }
                                 ]
@@ -1026,6 +1491,25 @@
                                 ]
                               },
                               "derivative": 0.0
+                            },
+                            {
+                              "location": 0.8,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 3.5,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
+                              "derivative": 0
                             }
                           ]
                         }
@@ -1293,7 +1777,7 @@
                               "derivative": 0
                             },
                             {
-                              "location": 0.9,
+                              "location": 0.7,
                               "value": {
                                 "coordinate": "hybrid_beta:overworld/vegetation",
                                 "points": [
@@ -1351,7 +1835,21 @@
                             },
                             {
                               "location": -1.23,
-                              "value": 0.9,
+                              "value": {
+                                "coordinate": "hybrid_beta:overworld/vegetation",
+                                "points": [
+                                  {
+                                    "location": -1.0,
+                                    "value": 4.5,
+                                    "derivative": 0.0
+                                  },
+                                  {
+                                    "location": 0.0,
+                                    "value": 0.9,
+                                    "derivative": 0.0
+                                  }
+                                ]
+                              },
                               "derivative": 0
                             },
                             {
