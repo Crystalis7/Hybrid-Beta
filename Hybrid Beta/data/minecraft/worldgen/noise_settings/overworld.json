@@ -193,7 +193,7 @@
         "type": "noise",
         "noise": "minecraft:aquifer_fluid_level_spread",
         "xz_scale": 1,
-        "y_scale": 0.67
+        "y_scale": 0.7142857142857143
       }
     },
     "initial_density_without_jaggedness": {

@@ -10,8 +10,8 @@
       "argument": {
         "type": "minecraft:range_choice",
         "input": "minecraft:overworld/ridges",
-        "min_inclusive": -0.05,
-        "max_exclusive": 0.05,
+        "min_inclusive": -0.1,
+        "max_exclusive": 0.1,
         "when_in_range": {
           "type": "minecraft:range_choice",
           "input": "minecraft:overworld/continents",

@@ -35,28 +35,18 @@
               }
             },
             "argument2": {
-              "type": "range_choice",
-              "min_inclusive": 0,
-              "max_exclusive": 10000,
-              "input": "hybrid_beta:overworld/underground_rivers/type",
-              "when_in_range": {
-                "type": "y_clamped_gradient",
-                "from_y": -10,
-                "to_y": 62,
-                "from_value": -1,
-                "to_value": 0
-              },
-              "when_out_of_range": {
-                "type": "y_clamped_gradient",
-                "from_y": -10,
-                "to_y": 138,
-                "from_value": -1,
-                "to_value": 1
-              }
+              "type": "y_clamped_gradient",
+              "from_y": -20,
+              "to_y": 148,
+              "from_value": -1,
+              "to_value": 1
+              // It's about which point the value reaches 0 - at that point, there will be air
+              // I guess  
             }
           }
         }
       },
+      // This controls the shape of cross-section
       "argument2": {
         "type": "square",
         "argument": {
@@ -65,34 +55,11 @@
             "type": "mul",
             "argument1": "minecraft:overworld/ridges",
             "argument2": {
-              "type": "minecraft:spline",
-              "min_value": 1.0999999999999996,
-              "max_value": 3.300000000000003,
-              "spline": {
-                "coordinate": "minecraft:y",
-                "points": [
-                  {
-                    "location": 60.509265936997025,
-                    "value": 1.475759518670229,
-                    "derivative": -3.5094424407272773e-17
-                  },
-                  {
-                    "location": 71.45346553627607,
-                    "value": 1.2622981528356434,
-                    "derivative": 0
-                  },
-                  {
-                    "location": 86.656980106773,
-                    "value": 2.8890924112088507,
-                    "derivative": 0.05117304361518664
-                  },
-                  {
-                    "location": 102.55999999999673,
-                    "value": 3.218021401118695,
-                    "derivative": 0.01166188778289871
-                  }
-                ]
-              }
+              "type": "y_clamped_gradient",
+              "from_y": 60,
+              "to_y": 108,
+              "from_value": 2.125,
+              "to_value": 4
             }
           }
         }
