@@ -40,13 +40,15 @@
               "to_y": 148,
               "from_value": -1,
               "to_value": 1
+              
+              // This controls the shape of cross-section
               // It's about which point the value reaches 0 - at that point, there will be air
               // I guess  
             }
           }
         }
       },
-      // This controls the shape of cross-section
+      // This also controls the shape of cross-section
       "argument2": {
         "type": "square",
         "argument": {
@@ -55,11 +57,39 @@
             "type": "mul",
             "argument1": "minecraft:overworld/ridges",
             "argument2": {
-              "type": "y_clamped_gradient",
-              "from_y": 60,
-              "to_y": 108,
-              "from_value": 2.125,
-              "to_value": 4
+              // "type": "y_clamped_gradient",
+              // "from_y": 60,
+              // "to_y": 108,
+              // "from_value": 2.125,
+              // "to_value": 4
+              "type": "minecraft:spline",
+              "min_value": 1.5,
+              "max_value": 4,
+              "spline": {
+                "coordinate": "minecraft:y",
+                "points": [
+                  // {
+                  //   "location": 50,
+                  //   "value": 2,
+                  //   "derivative": 0.25 
+                  // },
+                  {
+                    "location": 63,
+                    "value": 1.5,
+                    "derivative": 0
+                  },
+                  // {
+                  //   "location": 66,
+                  //   "value": 3,
+                  //   "derivative": 0.25
+                  // },
+                  {
+                    "location": 110,
+                    "value": 4,
+                    "derivative": 0
+                  }
+                ]
+              }
             }
           }
         }
