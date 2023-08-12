@@ -57,39 +57,11 @@
             "type": "mul",
             "argument1": "minecraft:overworld/ridges",
             "argument2": {
-              // "type": "y_clamped_gradient",
-              // "from_y": 60,
-              // "to_y": 108,
-              // "from_value": 2.125,
-              // "to_value": 4
-              "type": "minecraft:spline",
-              "min_value": 1.5,
-              "max_value": 4,
-              "spline": {
-                "coordinate": "minecraft:y",
-                "points": [
-                  // {
-                  //   "location": 50,
-                  //   "value": 2,
-                  //   "derivative": 0.25 
-                  // },
-                  {
-                    "location": 63,
-                    "value": 1.5,
-                    "derivative": 0
-                  },
-                  // {
-                  //   "location": 66,
-                  //   "value": 3,
-                  //   "derivative": 0.25
-                  // },
-                  {
-                    "location": 110,
-                    "value": 4,
-                    "derivative": 0
-                  }
-                ]
-              }
+              "type": "y_clamped_gradient",
+              "from_y": 64,
+              "to_y": 112,
+              "from_value": 1.5,
+              "to_value": 4
             }
           }
         }
