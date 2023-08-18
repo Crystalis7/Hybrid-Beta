@@ -164,7 +164,7 @@
                 }
               }
             },
-            "argument2": "hybrid_beta:overworld/underground_rivers/underground_rivers"
+            "argument2": "hybrid_beta:overworld/river_carver/river_carver"
           }
         }
       },
@@ -174,7 +174,7 @@
       "type": "range_choice",
       "min_inclusive": 0.5,
       "max_exclusive": 1.5,
-      "input": "hybrid_beta:overworld/underground_rivers/noise_selector",
+      "input": "hybrid_beta:overworld/river_carver/noise_selector",
       "when_in_range": 1,
       "when_out_of_range": {
         "type": "noise",
@@ -187,7 +187,7 @@
       "type": "range_choice",
       "min_inclusive": 0.5,
       "max_exclusive": 1.5,
-      "input": "hybrid_beta:overworld/underground_rivers/noise_selector",
+      "input": "hybrid_beta:overworld/river_carver/noise_selector",
       "when_in_range": 0.5,
       "when_out_of_range": {
         "type": "noise",
