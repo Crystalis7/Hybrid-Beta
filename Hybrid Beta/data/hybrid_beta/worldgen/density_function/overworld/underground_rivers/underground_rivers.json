@@ -35,20 +35,77 @@
               }
             },
             "argument2": {
-              "type": "y_clamped_gradient",
-              "from_y": -20,
-              "to_y": 148,
-              "from_value": -1,
-              "to_value": 1
-              
-              // This controls the shape of cross-section
-              // It's about which point the value reaches 0 - at that point, there will be air
-              // I guess  
+              "type": "minecraft:range_choice",
+              "input": "minecraft:overworld/continents",
+              "min_inclusive": -1000,
+              "max_exclusive": 0.1,
+              "when_in_range": {
+                "type": "minecraft:range_choice",
+                "input": "hybrid_beta:overworld/gravel_beach",
+                "min_inclusive": -1000,
+                "max_exclusive": -0.4,
+                "when_in_range": 1,
+                "when_out_of_range": {
+                  // "type": "y_clamped_gradient",
+                  // "from_y": 60,
+                  // "to_y": 70,
+                  // "from_value": -1,
+                  // "to_value": 0
+                  "type": "y_clamped_gradient",
+                  "from_y": 20,
+                  "to_y": 64,
+                  "from_value": -1,
+                  "to_value": 0
+                }
+              },
+              "when_out_of_range": {
+                "type": "minecraft:range_choice",
+                "input": "minecraft:overworld/erosion",
+                "min_inclusive": -1000,
+                "max_exclusive": -0.375,
+                "when_in_range": {
+                  "type": "y_clamped_gradient",
+                  "from_y": -20,
+                  "to_y": 148,
+                  "from_value": -1,
+                  "to_value": 1
+                },
+                "when_out_of_range": {
+                  "type": "minecraft:range_choice",
+                  "input": "minecraft:overworld/erosion",
+                  "min_inclusive": -0.375,
+                  "max_exclusive": -0.1,
+                  "when_in_range": {
+                    "type": "y_clamped_gradient",
+                    "from_y": 20,
+                    "to_y": 64,
+                    "from_value": -1,
+                    "to_value": 0
+                  },
+                  "when_out_of_range": {
+                    // "type": "y_clamped_gradient",
+                    // "from_y": 60,
+                    // "to_y": 70,
+                    // "from_value": -1,
+                    // "to_value": 0
+                    "type": "y_clamped_gradient",
+                    "from_y": 20,
+                    "to_y": 64,
+                    "from_value": -1,
+                    "to_value": 0
+                  }
+                  
+                }
+              }
             }
+              // This controls whether or not there is a hole
+              // It's about which point the value reaches 0 - at that point, there will be air
+              // It determines when there is air and when there is not. 
           }
         }
       },
-      // This also controls the shape of cross-section
+      // This also controls the shape of cross-section - lower value = wider?
+      // Add condition for gravel beach to make it go outwards?
       "argument2": {
         "type": "square",
         "argument": {
@@ -57,11 +114,29 @@
             "type": "mul",
             "argument1": "minecraft:overworld/ridges",
             "argument2": {
-              "type": "y_clamped_gradient",
-              "from_y": 64,
-              "to_y": 112,
-              "from_value": 1.5,
-              "to_value": 4
+              "type": "minecraft:range_choice",
+              "input": "hybrid_beta:overworld/gravel_beach",
+              "min_inclusive": -1000,
+              "max_exclusive": -0.4,
+              "when_in_range": {
+                "type": "y_clamped_gradient",
+                "from_y": 64,
+                "to_y": 112,
+                "from_value": 2,
+                "to_value": 4
+              },
+              "when_out_of_range": {
+                // "type": "y_clamped_gradient",
+                // "from_y": 64,
+                // "to_y": 112,
+                // "from_value": 1.5,
+                // "to_value": 4
+                "type": "y_clamped_gradient",
+                "from_y": 64,
+                "to_y": 112,
+                "from_value": 2,
+                "to_value": 4.5
+              }
             }
           }
         }
