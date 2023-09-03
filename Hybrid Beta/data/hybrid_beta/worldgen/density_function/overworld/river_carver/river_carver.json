@@ -21,6 +21,9 @@
               "input": "minecraft:overworld/continents",
               "min_inclusive": -1000,
               "max_exclusive": 0.1,
+              // This controls whether or not there is a hole
+              // It determines when there is air and when there is not. 
+              // It's about which point the value reaches 0 - at that point, there will be air
               "when_in_range": {
                 "type": "y_clamped_gradient",
                 "from_y": 20,
@@ -30,9 +33,6 @@
                 // Open at top
               },
               "when_out_of_range": {
-                // This controls whether or not there is a hole
-                // It's about which point the value reaches 0 - at that point, there will be air
-                // It determines when there is air and when there is not. 
                 "type": "minecraft:range_choice",
                 "input": "minecraft:overworld/erosion",
                 "min_inclusive": -1000,
@@ -69,25 +69,52 @@
             "argument1": "minecraft:overworld/ridges",
             "argument2": {
               "type": "minecraft:range_choice",
-              "input": "minecraft:overworld/erosion",
+              "input": "minecraft:overworld/continents",
               "min_inclusive": -1000,
-              "max_exclusive": -0.15,
+              "max_exclusive": 0.1,
               "when_in_range": {
-                "type": "y_clamped_gradient",
-                "from_y": 64,
-                "to_y": 112,
-                "from_value": 1.5,
-                "to_value": 4
-                // Profile gets narrower as we move up in y from river surface
-
+                "type": "minecraft:range_choice",
+                "input": "minecraft:overworld/erosion",
+                "min_inclusive": -1000,
+                "max_exclusive": -0.525,
+                "when_in_range": {
+                  "type": "y_clamped_gradient",
+                  "from_y": 64,
+                  "to_y": 112,
+                  "from_value": 1.5,
+                  "to_value": 4
+                  // Profile gets narrower as we move up in y from river surface
+                },
+                "when_out_of_range": {
+                  "type": "y_clamped_gradient",
+                  "from_y": 64,
+                  "to_y": 112,
+                  "from_value": 2.25,
+                  "to_value": 0
+                  // Profile gets wider as we move up in y from river surface
+                }
               },
               "when_out_of_range": {
-                "type": "y_clamped_gradient",
-                "from_y": 64,
-                "to_y": 112,
-                "from_value": 2.25,
-                "to_value": 0
-                // Profile gets wider as we move up in y from river surface
+                "type": "minecraft:range_choice",
+                "input": "minecraft:overworld/erosion",
+                "min_inclusive": -1000,
+                "max_exclusive": -0.15,
+                "when_in_range": {
+                  "type": "y_clamped_gradient",
+                  "from_y": 64,
+                  "to_y": 112,
+                  "from_value": 1.5,
+                  "to_value": 4
+                  // Profile gets narrower as we move up in y from river surface
+                },
+                "when_out_of_range": {
+                  "type": "y_clamped_gradient",
+                  "from_y": 64,
+                  "to_y": 112,
+                  "from_value": 2.25,
+                  "to_value": 0
+                  // Profile gets wider as we move up in y from river surface
+                }
               }
             }
           }
