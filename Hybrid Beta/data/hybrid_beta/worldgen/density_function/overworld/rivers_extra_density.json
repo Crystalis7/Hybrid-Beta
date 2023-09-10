@@ -1,0 +1,42 @@
+// (1 - 5 * clamp(abs(weirdness), 0, 1))^2
+// Factor of 5 chosen so that for all points satisfying |W|>=0.2, 
+// the value of the density function will be 0.
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:square",
+      "argument": {
+        "type": "minecraft:add",
+        "argument1": 1,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": -5,
+          "argument2": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:abs",
+                "argument": "minecraft:overworld/ridges"
+              },
+              "argument2": {
+                "type": "minecraft:abs",
+                "argument": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_value": -1,
+                  "from_y": 60,
+                  "to_value": 1,
+                  "to_y": 68
+                }
+              }
+            },
+            "max": 1,
+            "min": 0
+          }
+        }
+      }
+    }
+  }
+}
