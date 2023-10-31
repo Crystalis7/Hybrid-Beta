@@ -1,11 +1,11 @@
 {
   "type": "range_choice",
-  "min_inclusive": 0.95, // Try increasing?
+  "min_inclusive": 0.95,
   "max_exclusive": 1.05,
   "input": "hybrid_beta:overworld/river_carver/noise_selector",
   "when_in_range": {
     "type": "add",
-    "argument1": -0.0625, // Extra (negative) density (Maybe try turning into spline to focus density on W=0?)
+    "argument1": -0.0625,
     "argument2": {
       "type": "minecraft:add",
       "argument1": {
@@ -51,24 +51,17 @@
               "type": "interpolated",
               "argument": {
                 "type": "minecraft:mul",
-                // Controls the profile of the gap
-                // Lower = more vertical stretching
                 "argument1": 0.4,
                 "argument2": {
-                  // This controls whether or not there is a hole
-                  // It determines when there is air and when there is not. 
-                  // It's about which point the value reaches 0 - at that point, there will be air
                   "type": "y_clamped_gradient",
                   "from_y": 24,
                   "to_y": 64,
                   "from_value": -1,
                   "to_value": 0
-                  // Open at top
                 }
               }
             }
           },
-          // This also controls the shape of cross-section - lower value = wider?
           "argument2": {
             "type": "minecraft:abs",
             "argument": {
@@ -82,7 +75,6 @@
                   "to_y": 96,
                   "from_value": 2.25,
                   "to_value": 0
-                  // Profile gets wider as we move up in y from river surface
                 }
               }
             }
@@ -137,8 +129,6 @@
                 "type": "minecraft:abs",
                 "argument": {
                   "type": "minecraft:mul",
-                  // Controls the profile of the gap
-                  // Lower = more vertical stretching
                   "argument1": 0.4,
                   "argument2": {
                     "type": "minecraft:range_choice",
@@ -146,32 +136,22 @@
                     "min_inclusive": -1000,
                     "max_exclusive": -0.375,
                     "when_in_range": {
-                      // This controls whether or not there is a hole
-                      // It determines when there is air and when there is not. 
-                      // It's about which point the value reaches 0 - at that point, there will be air
                       "type": "y_clamped_gradient",
                       "from_y": -16,
                       "to_y": 152,
                       "from_value": -1,
                       "to_value": 1
-                      // Closed at top
                     },
                     "when_out_of_range": {
-                      // This controls whether or not there is a hole
-                      // It determines when there is air and when there is not. 
-                      // It's about which point the value reaches 0 - at that point, there will be air
                       "type": "y_clamped_gradient",
                       "from_y": 24,
                       "to_y": 64,
                       "from_value": -1,
                       "to_value": 0
-                      // Open at top
                     }
                   }
                 }
               },
-              // This also controls the shape of cross-section - lower value = wider?
-              // Add condition for gravel beach to make it go outwards?
               "argument2": {
                 "type": "minecraft:abs",
                 "argument": {
@@ -183,7 +163,6 @@
                     "to_y": 112,
                     "from_value": 1.5,
                     "to_value": 4
-                    // Profile gets narrower as we move up in y from river surface
                   }
                 }
               }
@@ -194,24 +173,16 @@
                 "type": "minecraft:abs",
                 "argument": {
                   "type": "minecraft:mul",
-                  // Controls the profile of the gap
-                  // Lower = more vertical stretching
                   "argument1": 0.4,
                   "argument2": {
-                    // This controls whether or not there is a hole
-                    // It determines when there is air and when there is not. 
-                    // It's about which point the value reaches 0 - at that point, there will be air
                     "type": "y_clamped_gradient",
                     "from_y": 24,
                     "to_y": 64,
                     "from_value": -1,
                     "to_value": 0
-                    // Open at top
                   }
                 }
               },
-              // This also controls the shape of cross-section - lower value = wider?
-              // Add condition for gravel beach to make it go outwards?
               "argument2": {
                 "type": "minecraft:abs",
                 "argument": {
@@ -223,7 +194,6 @@
                     "to_y": 96,
                     "from_value": 2.25,
                     "to_value": 0
-                    // Profile gets wider as we move up in y from river surface
                   }
                 }
               }
