@@ -1,11 +1,11 @@
 {
   "type": "range_choice",
-  "min_inclusive": 0.5,
-  "max_exclusive": 1.1,
+  "min_inclusive": 0.95, // Try increasing?
+  "max_exclusive": 1.05,
   "input": "hybrid_beta:overworld/river_carver/noise_selector",
   "when_in_range": {
     "type": "add",
-    "argument1": -0.003, // ???
+    "argument1": -0.0625, // Extra (negative) density (Maybe try turning into spline to focus density on W=0?)
     "argument2": {
       "type": "minecraft:add",
       "argument1": {
@@ -46,7 +46,7 @@
         "argument2": {
           "type": "add",
           "argument1": {
-            "type": "square",
+            "type": "minecraft:abs",
             "argument": {
               "type": "interpolated",
               "argument": {
@@ -70,7 +70,7 @@
           },
           // This also controls the shape of cross-section - lower value = wider?
           "argument2": {
-            "type": "square",
+            "type": "minecraft:abs",
             "argument": {
               "type": "interpolated",
               "argument": {
@@ -134,7 +134,7 @@
             "when_in_range": {
               "type": "add",
               "argument1": {
-                "type": "square",
+                "type": "minecraft:abs",
                 "argument": {
                   "type": "minecraft:mul",
                   // Controls the profile of the gap
@@ -173,7 +173,7 @@
               // This also controls the shape of cross-section - lower value = wider?
               // Add condition for gravel beach to make it go outwards?
               "argument2": {
-                "type": "square",
+                "type": "minecraft:abs",
                 "argument": {
                   "type": "minecraft:mul",
                   "argument1": "minecraft:overworld/ridges",
@@ -191,7 +191,7 @@
             "when_out_of_range": {
               "type": "add",
               "argument1": {
-                "type": "square",
+                "type": "minecraft:abs",
                 "argument": {
                   "type": "minecraft:mul",
                   // Controls the profile of the gap
@@ -213,7 +213,7 @@
               // This also controls the shape of cross-section - lower value = wider?
               // Add condition for gravel beach to make it go outwards?
               "argument2": {
-                "type": "square",
+                "type": "minecraft:abs",
                 "argument": {
                   "type": "minecraft:mul",
                   "argument1": "minecraft:overworld/ridges",
