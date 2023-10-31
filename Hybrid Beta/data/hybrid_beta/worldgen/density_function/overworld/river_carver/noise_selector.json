@@ -1,8 +1,8 @@
 {
   "type": "minecraft:range_choice",
   "input": "minecraft:y",
-  "min_inclusive": 45,
-  "max_exclusive": 1000,
+  "min_inclusive": 48,
+  "max_exclusive": 128,
   "when_in_range": {
     "type": "minecraft:flat_cache",
     "argument": {
@@ -10,7 +10,6 @@
       "argument": {
         "type": "minecraft:range_choice",
         "input": "minecraft:overworld/ridges",
-         // Range wide enough to prevent other DFs (e.g Lush Caves ponds) from interfering
         "min_inclusive": -0.1,
         "max_exclusive": 0.1,
         "when_in_range": {
