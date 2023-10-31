@@ -186,7 +186,7 @@
     "misc": []
   },
   "spawn_costs": {},
-  "precipitation": "rain",
+  "has_precipitation": true,
   "temperature": 0.8,
   "downfall": 0.8,
   "category": "forest"

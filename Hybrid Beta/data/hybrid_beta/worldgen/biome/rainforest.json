@@ -187,7 +187,7 @@
     "misc": []
   },
   "spawn_costs": {},
-  "precipitation": "rain",
+  "has_precipitation": true,
   "temperature": 0.95,
   "downfall": 0.8,
   "category": "jungle"
