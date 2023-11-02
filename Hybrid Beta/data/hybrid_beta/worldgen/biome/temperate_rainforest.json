@@ -195,7 +195,7 @@
   },
   "spawn_costs": {},
   "has_precipitation": true,
-  "temperature": 0.6,
-  "downfall": 1.0,
+  "temperature": 0.5,
+  "downfall": 0.9,
   "category": "forest"
 }

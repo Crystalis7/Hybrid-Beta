@@ -194,6 +194,6 @@
   "spawn_costs": {},
   "has_precipitation": false,
   "temperature": 1.2,
-  "downfall": 0.0,
+  "downfall": 0.2375,
   "category": "savanna"
 }
