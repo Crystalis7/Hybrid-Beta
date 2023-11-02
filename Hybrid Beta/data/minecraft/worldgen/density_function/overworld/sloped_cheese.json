@@ -24,7 +24,7 @@
             }
           }
         },
-        "argument2": "minecraft:overworld/factor"
+        "argument2": "hybrid_beta:overworld/factor"
       }
     }
   },
