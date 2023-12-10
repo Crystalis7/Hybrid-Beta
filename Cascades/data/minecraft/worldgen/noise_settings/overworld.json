@@ -146,12 +146,7 @@
       "max_exclusive": 1.5,
       "input": "hybrid_beta:overworld/river_carver/noise_selector",
       "when_in_range": 1,
-      "when_out_of_range": {
-        "type": "noise",
-        "noise": "minecraft:aquifer_fluid_level_floodedness",
-        "xz_scale": 1,
-        "y_scale": 0.67
-      }
+      "when_out_of_range": "hybrid_beta:overworld/fluid_level_floodedness"
     },
     "fluid_level_spread": {
       "type": "range_choice",
