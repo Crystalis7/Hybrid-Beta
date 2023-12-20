@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:trees_jungle",
+  "feature": "hybrid_beta:trees_jungle",
   "placement": [
     {
       "type": "minecraft:count",
@@ -7,10 +7,10 @@
         "type": "minecraft:clamped_normal",
         "value": 
           {
-            "mean": 45,
+            "mean": 15,
             "deviation": 10,
-            "min_inclusive": 35,
-            "max_inclusive": 55
+            "min_inclusive": 5,
+            "max_inclusive": 25
           }
       }
     },
