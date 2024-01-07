@@ -15,7 +15,7 @@
         "when_in_range": {
           "type": "minecraft:range_choice",
           "input": "minecraft:overworld/continents",
-          "min_inclusive": -0.18,
+          "min_inclusive": -0.225,
           "max_exclusive": 0.03,
           "when_in_range": {
             "type": "minecraft:range_choice",

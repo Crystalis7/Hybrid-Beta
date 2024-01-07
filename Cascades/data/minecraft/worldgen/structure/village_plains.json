@@ -10,6 +10,6 @@
     },
     "start_pool": "minecraft:village/plains/town_centers",
     "step": "surface_structures",
-    "terrain_adaptation": "none",
+    "terrain_adaptation": "beard_thin",
     "use_expansion_hack": true
   }
