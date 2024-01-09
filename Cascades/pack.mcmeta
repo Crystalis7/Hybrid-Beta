@@ -1,10 +1,10 @@
 {
   "supported_formats": [
-    15,
-    18
+    19,
+    20
   ],
   "pack": {
-    "pack_format": 15,
-    "description": "§bMaking Minecraft more inspiring!§f [1.20.2]"
+    "pack_format": 19,
+    "description": "§bMaking Minecraft more inspiring!§f [1.20.3]"
   }
 }
