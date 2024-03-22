@@ -2,10 +2,10 @@
 
 There are now two different variants of this datapack:
 
-1. _*Cascades*_ - The original version of this pack with new terrain, some edits to vanilla biomes, and a few new biomes.
-2. _*Cascades: Source*_ - A slimmed-down version of this pack which only contains the terrain changes. This should be, broadly-speaking, compatible with other world generation datapacks which add new biomes.
+1. **Cascades** - The original version of this pack with new terrain, some edits to vanilla biomes, and a few new biomes.
+2. **Cascades: Source** - A slimmed-down version of this pack which only contains the terrain changes. This should be, broadly-speaking, compatible with other world generation datapacks which add new biomes.
 
-Both versions of the pack are available in the 'Releases' section of this repository.
+Both variants of the pack are available in the 'Releases' section of this repository.
 
 # Overview
 
