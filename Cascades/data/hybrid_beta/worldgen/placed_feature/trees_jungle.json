@@ -5,13 +5,10 @@
       "type": "minecraft:count",
       "count": {
         "type": "minecraft:clamped_normal",
-        "value": 
-          {
-            "mean": 15,
-            "deviation": 10,
-            "min_inclusive": 5,
-            "max_inclusive": 25
-          }
+        "mean": 15,
+        "deviation": 10,
+        "min_inclusive": 5,
+        "max_inclusive": 25
       }
     },
     {
