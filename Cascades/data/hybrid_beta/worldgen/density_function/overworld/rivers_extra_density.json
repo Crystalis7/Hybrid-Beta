@@ -1,7 +1,7 @@
-// 2D part (at y=64): DF = (1 - 5 * clamp(abs(weirdness), 0, 1))^2
+// 2D part (at y=64): DF = (1 - 20 * clamp(abs(weirdness), 0, 1))^2
 // There is also an added gradient term to restrict the overall effect
 // of the density function to only be prevalent between y=64 and y=68.
-// Factor of 5 chosen so that, for all points satisfying |W|>=0.2, 
+// Factor of 5 chosen so that, for all points satisfying |W|>=0.05, 
 // the value of the density function will be 0.
 {
   "type": "minecraft:flat_cache",
@@ -14,7 +14,7 @@
         "argument1": 1,
         "argument2": {
           "type": "minecraft:mul",
-          "argument1": -5,
+          "argument1": -20,
           "argument2": {
             "type": "minecraft:clamp",
             "input": {
