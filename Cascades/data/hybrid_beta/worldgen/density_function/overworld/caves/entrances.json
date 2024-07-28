@@ -1,8 +1,6 @@
 {
   "type": "minecraft:add",
-  // "argument1": "hybrid_beta:overworld/rivers_extra_density",
   "argument1": 0,
-  // "argument2": "minecraft:overworld/caves/entrances"
   "argument2": {
     "type": "minecraft:cache_once",
     "argument": {
