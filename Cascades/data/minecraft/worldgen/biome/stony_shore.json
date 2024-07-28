@@ -130,7 +130,14 @@
         "maxCount": 1
       }
     ],
-    "creature": [],
+    "creature": [
+      {
+        "type": "minecraft:turtle",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 7
+      }
+    ],
     "ambient": [
       {
         "type": "minecraft:bat",

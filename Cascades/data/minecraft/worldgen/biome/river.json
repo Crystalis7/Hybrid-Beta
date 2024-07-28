@@ -167,7 +167,7 @@
       {
         "type": "minecraft:salmon",
         "weight": 5,
-        "minCount": 1,
+        "minCount": 2,
         "maxCount": 5
       }
     ],
