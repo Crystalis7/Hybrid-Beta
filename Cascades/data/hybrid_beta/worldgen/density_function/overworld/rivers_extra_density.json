@@ -14,7 +14,7 @@
             "argument1": 1,
             "argument2": {
               "type": "minecraft:mul",
-              "argument1": -0.0625,
+              "argument1": -0.04,
               "argument2": {
                 "type": "minecraft:square",
                 "argument": {
@@ -36,7 +36,7 @@
             "argument1": -1,
             "argument2": {
               "type": "minecraft:mul",
-              "argument1": 20,
+              "argument1": 12.5,
               "argument2": {
                 "type": "minecraft:abs",
                 "argument": "minecraft:overworld/ridges"
