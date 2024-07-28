@@ -133,9 +133,9 @@
     "creature": [
       {
         "type": "minecraft:turtle",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 7
+        "maxCount": 5,
+        "minCount": 2,
+        "weight": 5
       }
     ],
     "ambient": [
