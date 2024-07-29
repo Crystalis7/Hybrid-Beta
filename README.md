@@ -21,3 +21,21 @@ Key terrain features added:
 - Expansive lakes dotted with small islands
 - Underground rivers
 - Smoother transitions from land to water
+
+# Biomes
+
+Almost all vanilla biomes have been preserved. There are, however, a few exceptions, since some biomes had to be removed to make space for new ones:
+
+- Windswept Savannas and Old Growth Birch Forests have been replaced with the old Seasonal Forests from Beta
+- Windswept Hills and Windswept Forests have been replaced with a new biome called the Temperate Rainforest
+- Sparse Jungles have been renamed to Rainforests, and have been tweaked slightly to contain more big oak trees and tall ferns
+- Birch Forests have been removed
+- There have also been some adjustments to existing biomes:
+  - Since the old sand and gravel beaches have been re-added, this means that the (unsightly) sand, gravel and clay blobs have been removed. An implication of this would be that clay and gravel are more difficult to find. To make up for this, clay can now be found at bottom of lukewarm oceans and deep lukewarm oceans. Gravel already spawns at the bottom of most other ocean types (except warm), but the depth of the gravel has been increased instead of only occupying the floor block. This is, of course, in addition to clay already spawning in the Lush Caves.
+  - The dark foliage colours in the swamp biome have been removed, and the foliage colours in a couple of other biomes have been slightly adjusted.
+  - The sky colours in all biomes have been changed to more accurately reflect how they were in Minecraft Beta.
+  - Turtles now spawn in the Stony Shore biome
+  - Salmon spawn in slightly larger numbers in Rivers and Frozen Rivers to account for the reduction in spawning spaces due to the shallower rivers in this pack
+- There are probably a few more minor changes that I have forgotten about.
+
+Everything else has been kept the same as vanilla, which means that the new caves added in 1.18 will still generate.
