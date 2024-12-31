@@ -16741,7 +16741,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -16771,7 +16771,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -17881,7 +17881,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -17911,7 +17911,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -19471,7 +19471,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -19501,7 +19501,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -20521,7 +20521,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -20551,7 +20551,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -21481,7 +21481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -21491,7 +21491,7 @@
             ],
             "continentalness": [
               0.03,
-              0.3
+              1
             ],
             "erosion": [
               -0.78,
@@ -21511,7 +21511,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -21945,36 +21945,6 @@
             ],
             "erosion": [
               -0.78,
-              0.45
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.35,
-              0.7
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_pine_taiga"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              0.4
-            ],
-            "continentalness": [
-              0.3,
-              1
-            ],
-            "erosion": [
-              -0.78,
               -0.2225
             ],
             "temperature": [
@@ -21982,7 +21952,7 @@
               -0.15
             ],
             "humidity": [
-              0.7,
+              0.35,
               1
             ],
             "depth": [
@@ -22672,8 +22642,8 @@
               -0.15
             ],
             "humidity": [
-              0.7,
-              1
+              0.35,
+              0.7
             ],
             "depth": [
               0,
@@ -23102,36 +23072,6 @@
             "offset": 0
           },
           "biome": "hybrid_beta:temperate_rainforest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              1
-            ],
-            "continentalness": [
-              0.3,
-              1
-            ],
-            "erosion": [
-              0.45,
-              0.6
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.7,
-              1
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -23821,7 +23761,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -23851,7 +23791,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -24721,7 +24661,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -24751,7 +24691,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -25807,36 +25747,6 @@
           "parameters": {
             "weirdness": [
               0.4,
-              1
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              -0.375,
-              0.45
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.35,
-              0.7
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_pine_taiga"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.4,
               0.93333334
             ],
             "continentalness": [
@@ -25852,7 +25762,7 @@
               -0.15
             ],
             "humidity": [
-              0.7,
+              0.35,
               1
             ],
             "depth": [
@@ -26152,6 +26062,36 @@
               -0.15
             ],
             "humidity": [
+              0.35,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:pale_garden"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              1
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
               0.7,
               1
             ],
@@ -26161,7 +26101,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -26568,36 +26508,6 @@
               0.6
             ],
             "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.7,
-              1
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_pine_taiga"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.4,
-              0.93333334
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.45,
-              0.6
-            ],
-            "temperature": [
               -0.15,
               0.15
             ],
@@ -26962,7 +26872,7 @@
               -0.15
             ],
             "humidity": [
-              0.7,
+              0.35,
               1
             ],
             "depth": [
@@ -27472,8 +27382,8 @@
               -0.15
             ],
             "humidity": [
-              0.7,
-              1
+              0.35,
+              0.7
             ],
             "depth": [
               0,
@@ -28051,7 +27961,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -28081,7 +27991,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -29251,7 +29161,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -29281,7 +29191,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -31591,7 +31501,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -31601,7 +31511,7 @@
             ],
             "continentalness": [
               0.03,
-              0.3
+              1
             ],
             "erosion": [
               -0.78,
@@ -31621,7 +31531,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -32175,36 +32085,6 @@
             ],
             "erosion": [
               -0.78,
-              0.45
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.35,
-              0.7
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_pine_taiga"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.93333334,
-              1
-            ],
-            "continentalness": [
-              0.3,
-              1
-            ],
-            "erosion": [
-              -0.78,
               -0.2225
             ],
             "temperature": [
@@ -32212,7 +32092,7 @@
               -0.15
             ],
             "humidity": [
-              0.7,
+              0.35,
               1
             ],
             "depth": [
@@ -32782,8 +32662,8 @@
               -0.15
             ],
             "humidity": [
-              0.7,
-              1
+              0.35,
+              0.7
             ],
             "depth": [
               0,
@@ -49891,7 +49771,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -49921,7 +49801,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -51031,7 +50911,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -51061,7 +50941,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -52621,7 +52501,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -52651,7 +52531,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -53671,7 +53551,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -53701,7 +53581,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -54631,7 +54511,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -54641,7 +54521,7 @@
             ],
             "continentalness": [
               0.03,
-              0.3
+              1
             ],
             "erosion": [
               -0.78,
@@ -54661,7 +54541,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -55095,36 +54975,6 @@
             ],
             "erosion": [
               -0.78,
-              0.45
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.35,
-              0.7
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_pine_taiga"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              0.4
-            ],
-            "continentalness": [
-              0.3,
-              1
-            ],
-            "erosion": [
-              -0.78,
               -0.2225
             ],
             "temperature": [
@@ -55132,7 +54982,7 @@
               -0.15
             ],
             "humidity": [
-              0.7,
+              0.35,
               1
             ],
             "depth": [
@@ -55822,8 +55672,8 @@
               -0.15
             ],
             "humidity": [
-              0.7,
-              1
+              0.35,
+              0.7
             ],
             "depth": [
               1,
@@ -56252,36 +56102,6 @@
             "offset": 0
           },
           "biome": "hybrid_beta:temperate_rainforest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
-              1
-            ],
-            "continentalness": [
-              0.3,
-              1
-            ],
-            "erosion": [
-              0.45,
-              0.6
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.7,
-              1
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -56971,7 +56791,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -57001,7 +56821,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -57871,7 +57691,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -57901,7 +57721,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -58957,36 +58777,6 @@
           "parameters": {
             "weirdness": [
               0.4,
-              1
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              -0.375,
-              0.45
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.35,
-              0.7
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_pine_taiga"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.4,
               0.93333334
             ],
             "continentalness": [
@@ -59002,7 +58792,7 @@
               -0.15
             ],
             "humidity": [
-              0.7,
+              0.35,
               1
             ],
             "depth": [
@@ -59302,6 +59092,36 @@
               -0.15
             ],
             "humidity": [
+              0.35,
+              0.7
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:pale_garden"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              1
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
               0.7,
               1
             ],
@@ -59311,7 +59131,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -59718,36 +59538,6 @@
               0.6
             ],
             "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.7,
-              1
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_pine_taiga"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.4,
-              0.93333334
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.45,
-              0.6
-            ],
-            "temperature": [
               -0.15,
               0.15
             ],
@@ -60112,7 +59902,7 @@
               -0.15
             ],
             "humidity": [
-              0.7,
+              0.35,
               1
             ],
             "depth": [
@@ -60622,8 +60412,8 @@
               -0.15
             ],
             "humidity": [
-              0.7,
-              1
+              0.35,
+              0.7
             ],
             "depth": [
               1,
@@ -61201,7 +60991,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -61231,7 +61021,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -62401,7 +62191,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -62431,7 +62221,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -64741,7 +64531,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:pale_garden"
         },
         {
           "parameters": {
@@ -64751,7 +64541,7 @@
             ],
             "continentalness": [
               0.03,
-              0.3
+              1
             ],
             "erosion": [
               -0.78,
@@ -64771,7 +64561,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:old_growth_pine_taiga"
         },
         {
           "parameters": {
@@ -65325,36 +65115,6 @@
             ],
             "erosion": [
               -0.78,
-              0.45
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.35,
-              0.7
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_pine_taiga"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.93333334,
-              1
-            ],
-            "continentalness": [
-              0.3,
-              1
-            ],
-            "erosion": [
-              -0.78,
               -0.2225
             ],
             "temperature": [
@@ -65362,7 +65122,7 @@
               -0.15
             ],
             "humidity": [
-              0.7,
+              0.35,
               1
             ],
             "depth": [
@@ -65932,8 +65692,8 @@
               -0.15
             ],
             "humidity": [
-              0.7,
-              1
+              0.35,
+              0.7
             ],
             "depth": [
               1,
