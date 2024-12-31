@@ -2,7 +2,7 @@
   "pack": {
     "supported_formats": [
       48,
-      57
+      61
     ],
     "pack_format": 48,
     "description": "§bMaking Minecraft more inspiring!§f [1.21.x]"
@@ -10,8 +10,15 @@
   "overlays": {
 		"entries": [
 			{
-				"formats": 57,
+				"formats": [
+          57,
+          61
+        ],
 				"directory": "1-21-2-overlay"
+			},
+			{
+				"formats": 61,
+				"directory": "1-21-4-overlay"
 			}
 		]
 	}
