@@ -6,18 +6,22 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 7255039,
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.desert"
+    },
+    "sky_color": 9018367,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "features": [
     [],
     [
@@ -28,10 +32,14 @@
       "minecraft:amethyst_geode"
     ],
     [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "minecraft:desert_well"
+    ],
     [],
     [
       "minecraft:ore_dirt",
@@ -67,15 +75,15 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_water",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
+      "minecraft:patch_dead_bush_2",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
+      "minecraft:patch_sugar_cane_desert",
       "minecraft:patch_pumpkin",
-      "minecraft:seagrass_normal",
-      "minecraft:kelp_cold"
+      "minecraft:patch_cactus_desert",
+      "minecraft:seagrass_normal"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -91,13 +99,13 @@
       },
       {
         "type": "minecraft:zombie",
-        "weight": 95,
+        "weight": 19,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:zombie_villager",
-        "weight": 5,
+        "weight": 1,
         "minCount": 1,
         "maxCount": 1
       },
@@ -132,13 +140,20 @@
         "maxCount": 1
       },
       {
-        "type": "minecraft:drowned",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
+        "type": "minecraft:husk",
+        "weight": 80,
+        "minCount": 4,
+        "maxCount": 4
       }
     ],
-    "creature": [],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
     "ambient": [
       {
         "type": "minecraft:bat",
@@ -156,33 +171,13 @@
         "maxCount": 6
       }
     ],
-    "water_creature": [
-      {
-        "type": "minecraft:squid",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:dolphin",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ],
-    "water_ambient": [
-      {
-        "type": "minecraft:cod",
-        "weight": 10,
-        "minCount": 3,
-        "maxCount": 6
-      }
-    ],
+    "water_creature": [],
+    "water_ambient": [],
     "misc": []
   },
   "spawn_costs": {},
-  "has_precipitation": true,
-  "temperature": 0.5,
-  "downfall": 0.5,
-  "category": "ocean"
+  "has_precipitation": false,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "category": "desert"
 }

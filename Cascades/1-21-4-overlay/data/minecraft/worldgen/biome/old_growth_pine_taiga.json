@@ -1,5 +1,16 @@
 {
   "effects": {
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": "minecraft:music.overworld.old_growth_taiga"
+        },
+        "weight": 1
+      }
+    ],
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
@@ -11,13 +22,11 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "features": [
     [],
     [
@@ -25,7 +34,8 @@
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "minecraft:forest_rock"
     ],
     [
       "minecraft:monster_room",
@@ -67,15 +77,19 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_water",
+      "minecraft:patch_large_fern",
+      "hybrid_beta:trees_old_growth_pine_taiga",
       "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
+      "minecraft:patch_grass_taiga",
+      "minecraft:patch_dead_bush",
+      "minecraft:brown_mushroom_old_growth",
+      "minecraft:red_mushroom_old_growth",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:seagrass_normal",
-      "minecraft:kelp_cold"
+      "minecraft:patch_berry_common",
+      "minecraft:seagrass_normal"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -91,13 +105,13 @@
       },
       {
         "type": "minecraft:zombie",
-        "weight": 95,
+        "weight": 100,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:zombie_villager",
-        "weight": 5,
+        "weight": 25,
         "minCount": 1,
         "maxCount": 1
       },
@@ -130,15 +144,52 @@
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
-      },
-      {
-        "type": "minecraft:drowned",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
       }
     ],
-    "creature": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:wolf",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:rabbit",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:fox",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
     "ambient": [
       {
         "type": "minecraft:bat",
@@ -156,33 +207,13 @@
         "maxCount": 6
       }
     ],
-    "water_creature": [
-      {
-        "type": "minecraft:squid",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:dolphin",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ],
-    "water_ambient": [
-      {
-        "type": "minecraft:cod",
-        "weight": 10,
-        "minCount": 3,
-        "maxCount": 6
-      }
-    ],
+    "water_creature": [],
+    "water_ambient": [],
     "misc": []
   },
   "spawn_costs": {},
   "has_precipitation": true,
-  "temperature": 0.5,
-  "downfall": 0.5,
-  "category": "ocean"
+  "temperature": 0.3,
+  "downfall": 0.8,
+  "category": "taiga"
 }
