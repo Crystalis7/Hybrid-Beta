@@ -11,13 +11,11 @@
     "water_color": 4020182,
     "water_fog_color": 329011
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "features": [
     [],
     [
@@ -75,7 +73,6 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:seagrass_cold",
-      "minecraft:seagrass_simple",
       "minecraft:kelp_cold"
     ],
     [
