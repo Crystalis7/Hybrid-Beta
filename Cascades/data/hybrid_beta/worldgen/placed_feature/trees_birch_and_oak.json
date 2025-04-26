@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:trees_birch_and_oak",
+  "feature": "hybrid_beta:trees_birch_and_oak",
   "placement": [
     {
       "type": "minecraft:count",
