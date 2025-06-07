@@ -49,22 +49,6 @@
             },
             "trigger": "minecraft:location"
         },
-        "minecraft:birch_forest": {
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biomes": "minecraft:birch_forest"
-                            }
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:location"
-        },
         "minecraft:cherry_grove": {
             "conditions": {
                 "player": [
@@ -481,22 +465,6 @@
             },
             "trigger": "minecraft:location"
         },
-        "minecraft:old_growth_birch_forest": {
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biomes": "minecraft:old_growth_birch_forest"
-                            }
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:location"
-        },
         "minecraft:old_growth_pine_taiga": {
             "conditions": {
                 "player": [
@@ -673,22 +641,6 @@
             },
             "trigger": "minecraft:location"
         },
-        "minecraft:sparse_jungle": {
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biomes": "minecraft:sparse_jungle"
-                            }
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:location"
-        },
         "minecraft:stony_peaks": {
             "conditions": {
                 "player": [
@@ -785,70 +737,6 @@
             },
             "trigger": "minecraft:location"
         },
-        "minecraft:windswept_forest": {
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biomes": "minecraft:windswept_forest"
-                            }
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:location"
-        },
-        "minecraft:windswept_gravelly_hills": {
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biomes": "minecraft:windswept_gravelly_hills"
-                            }
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:location"
-        },
-        "minecraft:windswept_hills": {
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biomes": "minecraft:windswept_hills"
-                            }
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:location"
-        },
-        "minecraft:windswept_savanna": {
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biomes": "minecraft:windswept_savanna"
-                            }
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:location"
-        },
         "minecraft:wooded_badlands": {
             "conditions": {
                 "player": [
@@ -858,6 +746,70 @@
                         "predicate": {
                             "location": {
                                 "biomes": "minecraft:wooded_badlands"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "hybrid_beta:autumnal_forest": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "hybrid_beta:autumnal_forest"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "hybrid_beta:rainforest": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "hybrid_beta:rainforest"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "hybrid_beta:seasonal_forest": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "hybrid_beta:seasonal_forest"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "hybrid_beta:temperate_rainforest": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "hybrid_beta:temperate_rainforest"
                             }
                         }
                     }
@@ -929,19 +881,10 @@
             "minecraft:snowy_beach"
         ],
         [
-            "minecraft:windswept_gravelly_hills"
-        ],
-        [
             "minecraft:grove"
         ],
         [
-            "minecraft:windswept_hills"
-        ],
-        [
             "minecraft:snowy_taiga"
-        ],
-        [
-            "minecraft:windswept_forest"
         ],
         [
             "minecraft:taiga"
@@ -963,9 +906,6 @@
         ],
         [
             "minecraft:flower_forest"
-        ],
-        [
-            "minecraft:birch_forest"
         ],
         [
             "minecraft:dark_forest"
@@ -1010,19 +950,10 @@
             "minecraft:sunflower_plains"
         ],
         [
-            "minecraft:old_growth_birch_forest"
-        ],
-        [
-            "minecraft:sparse_jungle"
-        ],
-        [
             "minecraft:bamboo_jungle"
         ],
         [
             "minecraft:eroded_badlands"
-        ],
-        [
-            "minecraft:windswept_savanna"
         ],
         [
             "minecraft:cherry_grove"
@@ -1041,6 +972,18 @@
         ],
         [
             "minecraft:deep_dark"
+        ],
+        [
+            "hybrid_beta:autumnal_forest"
+        ],
+        [
+            "hybrid_beta:rainforest"
+        ],
+        [
+            "hybrid_beta:seasonal_forest"
+        ],
+        [
+            "hybrid_beta:temperate_rainforest"
         ]
     ],
     "rewards": {
