@@ -1,10 +1,12 @@
 {
   "pack": {
     "supported_formats": [
-      71,
-      71
+        71,
+        88
     ],
     "pack_format": 71,
-    "description": "§bMaking Minecraft more inspiring!§f [1.21.5]"
+    "min_format": 71,
+    "max_format": 88,
+    "description": "§bMaking Minecraft more inspiring!§f [1.21.9 - 1.21.10]"
   }
 }
