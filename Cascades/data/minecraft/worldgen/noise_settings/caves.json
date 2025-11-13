@@ -18,6 +18,7 @@
     "size_vertical": 2
   },
   "noise_router": {
+    "preliminary_surface_level": 0.0,
     "barrier": 0.0,
     "continents": 0.0,
     "depth": 0.0,
