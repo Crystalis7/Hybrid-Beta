@@ -1,15 +1,6 @@
 {
   "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
-    "sky_color": 8103167,
-    "fog_color": 12638463,
-    "water_color": 3750089,
-    "water_fog_color": 329011
+    "water_color": 3750089
   },
   "carvers": [
     "minecraft:cave",
@@ -188,5 +179,17 @@
   "temperature": 0.5,
   "temperature_modifier": "frozen",
   "downfall": 0.5,
-  "category": "ocean"
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      }
+    },
+    "minecraft:visual/sky_color": 8103167,
+    "minecraft:visual/fog_color": 12638463,
+    "minecraft:visual/water_fog_color": 329011
+  }
 }

@@ -1,15 +1,6 @@
 {
   "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
-    "sky_color": 8233983,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 4159204
   },
   "carvers": [
     "minecraft:cave",
@@ -202,5 +193,17 @@
   "has_precipitation": true,
   "temperature": 0.25,
   "downfall": 0.8,
-  "category": "taiga"
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      }
+    },
+    "minecraft:visual/sky_color": 8233983,
+    "minecraft:visual/fog_color": 12638463,
+    "minecraft:visual/water_fog_color": 329011
+  }
 }
