@@ -1,2 +1,3 @@
 to-do.md
 *.DS_Store
+.scripts/*
