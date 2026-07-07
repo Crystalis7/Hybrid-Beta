@@ -1,10 +1,10 @@
 {
   "pack": {
-    "min_format": 101,
-    "max_format": 101,
+    "min_format": 107,
+    "max_format": 107,
     "description": [
       {
-        "text": "§bMaking Minecraft more inspiring!§f [26.1]"
+        "text": "§bMaking Minecraft more inspiring!§f [26.2]"
       }
     ]
   },
