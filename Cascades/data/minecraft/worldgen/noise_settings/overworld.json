@@ -278,66 +278,6 @@
         "y_scale": 0.7142857142857143
       }
     },
-    "initial_density_without_jaggedness": {
-      "type": "minecraft:add",
-      "argument1": 0.1171875,
-      "argument2": {
-        "type": "minecraft:mul",
-        "argument1": {
-          "type": "minecraft:y_clamped_gradient",
-          "from_value": 0.0,
-          "from_y": -64,
-          "to_value": 1.0,
-          "to_y": -40
-        },
-        "argument2": {
-          "type": "minecraft:add",
-          "argument1": -0.1171875,
-          "argument2": {
-            "type": "minecraft:add",
-            "argument1": -0.078125,
-            "argument2": {
-              "type": "minecraft:mul",
-              "argument1": {
-                "type": "minecraft:y_clamped_gradient",
-                "from_value": 1.0,
-                "from_y": 240,
-                "to_value": 0.0,
-                "to_y": 256
-              },
-              "argument2": {
-                "type": "minecraft:add",
-                "argument1": 0.078125,
-                "argument2": {
-                  "type": "minecraft:clamp",
-                  "input": {
-                    "type": "minecraft:add",
-                    "argument1": -0.703125,
-                    "argument2": {
-                      "type": "minecraft:mul",
-                      "argument1": 4.0,
-                      "argument2": {
-                        "type": "minecraft:quarter_negative",
-                        "argument": {
-                          "type": "minecraft:mul",
-                          "argument1": "minecraft:overworld/depth",
-                          "argument2": {
-                            "type": "minecraft:cache_2d",
-                            "argument": "hybrid_beta:overworld/factor"
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "max": 64.0,
-                  "min": -64.0
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "lava": {
       "type": "minecraft:noise",
       "noise": "minecraft:aquifer_lava",
@@ -2160,6 +2100,77 @@
                                   "Name": "minecraft:stone"
                                 }
                               }
+                            },
+                            {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": "minecraft:sulfur_caves"
+                              },
+                              "then_run": {
+                                "type": "minecraft:sequence",
+                                "sequence": [
+                                  {
+                                    "type": "minecraft:sequence",
+                                    "sequence": [
+                                      {
+                                        "type": "minecraft:condition",
+                                        "if_true": {
+                                          "type": "minecraft:noise_threshold",
+                                          "is_3d": true,
+                                          "max_threshold": -0.10000000149011612,
+                                          "min_threshold": -0.4000000059604645,
+                                          "noise": "minecraft:sulfur_cave_gradient"
+                                        },
+                                        "then_run": {
+                                          "type": "minecraft:block",
+                                          "result_state": {
+                                            "Name": "minecraft:cinnabar"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "type": "minecraft:condition",
+                                        "if_true": {
+                                          "type": "minecraft:noise_threshold",
+                                          "is_3d": true,
+                                          "max_threshold": 0.4000000059604645,
+                                          "min_threshold": 0.0,
+                                          "noise": "minecraft:sulfur_cave_gradient"
+                                        },
+                                        "then_run": {
+                                          "type": "minecraft:block",
+                                          "result_state": {
+                                            "Name": "minecraft:sulfur"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "type": "minecraft:condition",
+                                        "if_true": {
+                                          "type": "minecraft:noise_threshold",
+                                          "is_3d": true,
+                                          "max_threshold": 1.7976931348623157E308,
+                                          "min_threshold": 0.4000000059604645,
+                                          "noise": "minecraft:sulfur_cave_gradient"
+                                        },
+                                        "then_run": {
+                                          "type": "minecraft:block",
+                                          "result_state": {
+                                            "Name": "minecraft:cinnabar"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:stone"
+                                    }
+                                  }
+                                ]
+                              }
                             }
                           ]
                         },
@@ -2934,6 +2945,77 @@
                                   "Name": "minecraft:stone"
                                 }
                               }
+                            },
+                            {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": "minecraft:sulfur_caves"
+                              },
+                              "then_run": {
+                                "type": "minecraft:sequence",
+                                "sequence": [
+                                  {
+                                    "type": "minecraft:sequence",
+                                    "sequence": [
+                                      {
+                                        "type": "minecraft:condition",
+                                        "if_true": {
+                                          "type": "minecraft:noise_threshold",
+                                          "is_3d": true,
+                                          "max_threshold": -0.10000000149011612,
+                                          "min_threshold": -0.4000000059604645,
+                                          "noise": "minecraft:sulfur_cave_gradient"
+                                        },
+                                        "then_run": {
+                                          "type": "minecraft:block",
+                                          "result_state": {
+                                            "Name": "minecraft:cinnabar"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "type": "minecraft:condition",
+                                        "if_true": {
+                                          "type": "minecraft:noise_threshold",
+                                          "is_3d": true,
+                                          "max_threshold": 0.4000000059604645,
+                                          "min_threshold": 0.0,
+                                          "noise": "minecraft:sulfur_cave_gradient"
+                                        },
+                                        "then_run": {
+                                          "type": "minecraft:block",
+                                          "result_state": {
+                                            "Name": "minecraft:sulfur"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "type": "minecraft:condition",
+                                        "if_true": {
+                                          "type": "minecraft:noise_threshold",
+                                          "is_3d": true,
+                                          "max_threshold": 1.7976931348623157E308,
+                                          "min_threshold": 0.4000000059604645,
+                                          "noise": "minecraft:sulfur_cave_gradient"
+                                        },
+                                        "then_run": {
+                                          "type": "minecraft:block",
+                                          "result_state": {
+                                            "Name": "minecraft:cinnabar"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:stone"
+                                    }
+                                  }
+                                ]
+                              }
                             }
                           ]
                         },
@@ -3263,6 +3345,66 @@
                     ]
                   }
                 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": "minecraft:sulfur_caves"
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "is_3d": true,
+                "max_threshold": -0.10000000149011612,
+                "min_threshold": -0.4000000059604645,
+                "noise": "minecraft:sulfur_cave_gradient"
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:cinnabar"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "is_3d": true,
+                "max_threshold": 0.4000000059604645,
+                "min_threshold": 0.0,
+                "noise": "minecraft:sulfur_cave_gradient"
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:sulfur"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "is_3d": true,
+                "max_threshold": 1.7976931348623157E308,
+                "min_threshold": 0.4000000059604645,
+                "noise": "minecraft:sulfur_cave_gradient"
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:cinnabar"
+                }
               }
             }
           ]
